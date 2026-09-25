@@ -23,6 +23,8 @@ typedef struct {
     uint8_t cores;
     int64_t last_seen_ms;
     int64_t last_assign_ms;
+    bool resume_available;
+    uint32_t checkpoint_progress;
 } worker_info_t;
 void worker_pool_start(void);
 size_t worker_pool_count(void);
