@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include "esp_err.h"
 
-#define LAB_VERSION "5.0.0"
+#define LAB_VERSION "5.1.0"
 #define LAB_NAME "ESP32 LAB"
 #define DEFAULT_AP_SSID "ESP32-LAB"
 #define DEFAULT_AP_PASSWORD "ESP32-LAB-Setup2026!"
@@ -28,6 +28,7 @@
 #define WORKER_HEARTBEAT_TIMEOUT_MS 10000UL
 #define WEB_SESSION_MS (30UL * 60UL * 1000UL)
 #define MAX_UPLOAD_BYTES (8UL * 1024UL * 1024UL)
+#define STORAGE_IMPORT_INTERVAL_MS (10000UL)
 
 typedef struct {
     char ap_ssid[33];
