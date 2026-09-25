@@ -20,10 +20,14 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include <string.h>
+#include <strings.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/stat.h>
 #include <dirent.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <ctype.h>
 
 static const char *TAG = "web";
 static httpd_handle_t s_server = NULL;
@@ -35,8 +39,10 @@ httpd_handle_t web_server_handle(void) { return s_server; }
 
 static bool body_read(httpd_req_t *r, char *out, size_t cap)
 {
-    if (!r || !out || cap < 2 || r->content_len < 0 || r->content_len >= (int)cap) return false;
-    int left = r->content_len, pos = 0;
+    if (!r || !out || cap < 2) return false;
+    size_t content_len = (size_t)r->content_len;
+    if (content_len >= cap || content_len > (size_t)INT_MAX) return false;
+    int left = (int)content_len, pos = 0;
     while (left > 0) {
         int n = httpd_req_recv(r, out + pos, left);
         if (n <= 0) return false;
@@ -126,7 +132,7 @@ static esp_err_t state_get(httpd_req_t *r)
         cJSON_AddNumberToObject(x, "heap_min", w->heap_min); cJSON_AddNumberToObject(x, "rssi", w->rssi);
         cJSON_AddNumberToObject(x, "cpu_mhz", w->cpu_mhz); cJSON_AddNumberToObject(x, "cores", w->cores);
         cJSON_AddNumberToObject(x, "flash_size", w->flash_size); cJSON_AddNumberToObject(x, "psram_size", w->psram_size);
-        cJSON_AddNumberToObject(x, "uptime_ms", w->uptime_ms); cJSON_AddItemToArray(a, x);
+        cJSON_AddNumberToObject(x, "uptime_ms", w->uptime_ms); cJSON_AddBoolToObject(x, "resume_available", w->resume_available); cJSON_AddNumberToObject(x, "checkpoint_progress", w->checkpoint_progress); cJSON_AddItemToArray(a, x);
     }
     cJSON_AddItemToObject(root, "workers", a);
     char *s = cJSON_PrintUnformatted(root);
@@ -180,7 +186,7 @@ static esp_err_t control_post(httpd_req_t *r)
     char b[240] = {0}, pw[100] = {0}; if (!body_read(r, b, sizeof(b))) return ESP_ERR_INVALID_SIZE;
     form_param(b, "password", pw, sizeof(pw)); url_decode(pw);
     if (strcmp(pw, g_lab_cfg.admin_pass) != 0) return httpd_resp_send_err(r, HTTPD_403_FORBIDDEN, "acces refuse");
-    uint32_t x = (uint32_t)esp_timer_get_time(); snprintf(s_session, sizeof(s_session), "%08x%08x", x, (unsigned)esp_random());
+    uint32_t x = (uint32_t)esp_timer_get_time(); snprintf(s_session, sizeof(s_session), "%08" PRIx32 "%08" PRIx32, x, esp_random());
     s_session_exp = esp_timer_get_time() / 1000 + WEB_SESSION_MS;
     char h[100]; snprintf(h, sizeof(h), "LABSESS=%s; HttpOnly; SameSite=Strict", s_session); httpd_resp_set_hdr(r, "Set-Cookie", h);
     httpd_resp_set_status(r, "303 See Other"); httpd_resp_set_hdr(r, "Location", g_lab_cfg.control_path);
@@ -238,7 +244,7 @@ static esp_err_t sd_download(httpd_req_t *r)
 
 static esp_err_t sd_upload(httpd_req_t *r)
 {
-    if (!auth(r) || r->content_len < 0 || r->content_len > MAX_UPLOAD_BYTES) return httpd_resp_send_err(r, HTTPD_400_BAD_REQUEST, "upload");
+    if (!auth(r) || (size_t)r->content_len > MAX_UPLOAD_BYTES) return httpd_resp_send_err(r, HTTPD_400_BAD_REQUEST, "upload");
     char path[240]; if (httpd_req_get_hdr_value_str(r, "X-Path", path, sizeof(path)) != ESP_OK || !valid_sd_path(path, false)) return httpd_resp_send_err(r, HTTPD_400_BAD_REQUEST, "X-Path");
     FILE *f = fopen(path, "wb"); if (!f) return httpd_resp_send_err(r, HTTPD_500_INTERNAL_SERVER_ERROR, "open");
     char b[4096]; int rem = r->content_len; while (rem > 0) { int k = rem > (int)sizeof(b) ? (int)sizeof(b) : rem; int n = httpd_req_recv(r, b, k); if (n <= 0) { fclose(f); return ESP_FAIL; } if (fwrite(b, 1, (size_t)n, f) != (size_t)n) { fclose(f); return ESP_FAIL; } rem -= n; }
@@ -280,7 +286,7 @@ static esp_err_t avr_flash_post(httpd_req_t *r)
     char b[360] = {0}, path[220] = {0}, profile[64] = {0}; if (!body_read(r, b, sizeof(b))) return ESP_ERR_INVALID_SIZE;
     form_param(b, "path", path, sizeof(path)); form_param(b, "profile", profile, sizeof(profile)); url_decode(path); url_decode(profile);
     if (!valid_sd_path(path, false)) return httpd_resp_send_err(r, HTTPD_400_BAD_REQUEST, "path");
-    char result[256] = {0}; esp_err_t e = usb_avr_flash_hex(path, profile, result, sizeof(result)); char out[420];
+    char result[256] = {0}; esp_err_t e = usb_avr_flash_hex(path, profile, result, sizeof(result));
     cJSON *j = cJSON_CreateObject(); if (!j) return ESP_ERR_NO_MEM; cJSON_AddBoolToObject(j, "ok", e == ESP_OK); cJSON_AddStringToObject(j, "message", result); cJSON_AddNumberToObject(j, "err", e); char *s = cJSON_PrintUnformatted(j); cJSON_Delete(j); if (!s) return ESP_ERR_NO_MEM; send_json(r, s); free(s); return ESP_OK;
 }
 
@@ -313,6 +319,70 @@ static esp_err_t update_approve(httpd_req_t *r)
 static esp_err_t notify_test(httpd_req_t *r)
 { if (!auth(r)) return httpd_resp_send_err(r, HTTPD_401_UNAUTHORIZED, "locked"); char out[256]; notifications_test(out, sizeof(out)); send_json(r, out); return ESP_OK; }
 
+
+static bool project_component_name_ok(const char *s)
+{
+    if (!s || !*s || strlen(s) > 80 || strstr(s, "..")) return false;
+    for (const unsigned char *p=(const unsigned char *)s; *p; ++p)
+        if (!isalnum(*p) && *p!='-' && *p!='_' && *p!='.' && *p!=' ') return false;
+    return true;
+}
+static bool project_file_ok(const char *name)
+{
+    if (!project_component_name_ok(name)) return false;
+    const char *dot = strrchr(name, '.'); if (!dot) return false;
+    const char *ok[] = {".ino",".cpp",".c",".h",".hpp",".json",".md",".txt",".bin",".hex",".csv",".pdf"};
+    for(size_t i=0;i<sizeof(ok)/sizeof(ok[0]);++i) if(strcasecmp(dot,ok[i])==0) return true;
+    return false;
+}
+static esp_err_t project_mkdir_post(httpd_req_t *r)
+{
+    if(!auth(r)) return httpd_resp_send_err(r,HTTPD_401_UNAUTHORIZED,"locked");
+    char b[180]={0},name[96]={0}; if(!body_read(r,b,sizeof(b))) return ESP_ERR_INVALID_SIZE;
+    form_param(b,"name",name,sizeof(name)); url_decode(name);
+    if(!project_component_name_ok(name)) return httpd_resp_send_err(r,HTTPD_400_BAD_REQUEST,"nom invalide");
+    char path[240]; snprintf(path,sizeof(path),"/sd/PROJECTS/MY_PROJECTS/%s",name);
+    esp_err_t e=storage_mkdir(path); char out[160];
+    snprintf(out,sizeof(out),"{\"ok\":%s,\"path\":\"%s\",\"err\":%d}",e==ESP_OK?"true":"false",path,e);
+    send_json(r,out); return ESP_OK;
+}
+static esp_err_t project_upload_post(httpd_req_t *r)
+{
+    if(!auth(r)) return httpd_resp_send_err(r,HTTPD_401_UNAUTHORIZED,"locked");
+    if((size_t)r->content_len>MAX_UPLOAD_BYTES) return httpd_resp_send_err(r,HTTPD_400_BAD_REQUEST,"upload");
+    char project[96]={0},file[96]={0};
+    if(httpd_req_get_hdr_value_str(r,"X-Project",project,sizeof(project))!=ESP_OK ||
+       httpd_req_get_hdr_value_str(r,"X-Filename",file,sizeof(file))!=ESP_OK)
+        return httpd_resp_send_err(r,HTTPD_400_BAD_REQUEST,"X-Project/X-Filename");
+    if(!project_component_name_ok(project)||!project_file_ok(file)) return httpd_resp_send_err(r,HTTPD_400_BAD_REQUEST,"fichier invalide");
+    char dir[240],path[240]; snprintf(dir,sizeof(dir),"/sd/PROJECTS/MY_PROJECTS/%s",project);
+    if(storage_mkdir(dir)!=ESP_OK) return httpd_resp_send_err(r,HTTPD_500_INTERNAL_SERVER_ERROR,"project");
+    snprintf(path,sizeof(path),"%s/%s",dir,file); FILE*f=fopen(path,"wb");
+    if(!f)return httpd_resp_send_err(r,HTTPD_500_INTERNAL_SERVER_ERROR,"open");
+    char b[4096]; int rem=(int)r->content_len;
+    while(rem>0){int k=rem>(int)sizeof(b)?(int)sizeof(b):rem;int n=httpd_req_recv(r,b,k);
+        if(n<=0){fclose(f);remove(path);return ESP_FAIL;}
+        if(fwrite(b,1,(size_t)n,f)!=(size_t)n){fclose(f);remove(path);return ESP_FAIL;} rem-=n;}
+    fclose(f); char sha[65]={0}; (void)storage_sha256_file(path,sha);
+    char out[220]; snprintf(out,sizeof(out),"{\"ok\":true,\"path\":\"%s\",\"sha256\":\"%s\"}",path,sha);
+    send_json(r,out); return ESP_OK;
+}
+static esp_err_t project_import_post(httpd_req_t *r)
+{
+    if(!auth(r)) return httpd_resp_send_err(r,HTTPD_401_UNAUTHORIZED,"locked");
+    esp_err_t e=storage_import_inbox(); send_json(r,e==ESP_OK?"{\"ok\":true}":"{\"ok\":false}"); return ESP_OK;
+}
+static esp_err_t projects_get(httpd_req_t *r)
+{
+    if(!auth(r)) return httpd_resp_send_err(r,HTTPD_401_UNAUTHORIZED,"locked");
+    const char*roots[]={"/sd/PROJECTS/PREPARED","/sd/PROJECTS/IMPORTED","/sd/PROJECTS/MY_PROJECTS"};
+    char*out=malloc(12000); if(!out)return ESP_ERR_NO_MEM; size_t n=0; bool first=true; n+=snprintf(out+n,12000-n,"[");
+    for(size_t ri=0;ri<sizeof(roots)/sizeof(roots[0]);++ri){DIR*d=opendir(roots[ri]);if(!d)continue;struct dirent*e;
+        while((e=readdir(d))&&n<11500){if(e->d_type!=DT_DIR||!project_component_name_ok(e->d_name)||!strcmp(e->d_name,".")||!strcmp(e->d_name,".."))continue;
+            if(!first)n+=snprintf(out+n,12000-n,","); first=false; n+=snprintf(out+n,12000-n,"{\"name\":\"%s\",\"path\":\"%s/%s\"}",e->d_name,roots[ri],e->d_name);}
+        closedir(d);}
+    n+=snprintf(out+n,12000-n,"]"); send_json(r,out); free(out); return ESP_OK;
+}
 static esp_err_t admin_config_get(httpd_req_t *r)
 {
     if (!auth(r)) return httpd_resp_send_err(r, HTTPD_401_UNAUTHORIZED, "locked");
@@ -330,7 +400,7 @@ static void copy_json_string(cJSON *obj, const char *key, char *dst, size_t cap,
 
 static esp_err_t admin_config_post(httpd_req_t *r)
 {
-    if (!auth(r) || r->content_len < 0 || r->content_len > 4000) return httpd_resp_send_err(r, HTTPD_401_UNAUTHORIZED, "locked");
+    if (!auth(r) || (size_t)r->content_len > 4000) return httpd_resp_send_err(r, HTTPD_401_UNAUTHORIZED, "locked");
     char b[4001]; if (!body_read(r, b, sizeof(b))) return ESP_ERR_INVALID_SIZE; cJSON *j = cJSON_Parse(b); if (!j) return httpd_resp_send_err(r, HTTPD_400_BAD_REQUEST, "JSON invalide");
     lab_config_t next = g_lab_cfg;
     copy_json_string(j, "ap_ssid", next.ap_ssid, sizeof(next.ap_ssid), true); copy_json_string(j, "ap_pass", next.ap_pass, sizeof(next.ap_pass), false);
@@ -358,8 +428,13 @@ static esp_err_t ws(httpd_req_t *r)
 {
     if (r->method == HTTP_GET) return ESP_OK;
     httpd_ws_frame_t f = {0}; f.type = HTTPD_WS_TYPE_TEXT; if (httpd_ws_recv_frame(r, &f, 0) != ESP_OK) return ESP_FAIL;
-    if (f.len == 0) return ESP_OK; uint8_t *p = malloc(f.len + 1); if (!p) return ESP_ERR_NO_MEM; f.payload = p;
-    esp_err_t e = httpd_ws_recv_frame(r, &f, f.len); free(p); return e;
+    if (f.len == 0) return ESP_OK;
+    uint8_t *p = malloc(f.len + 1);
+    if (!p) return ESP_ERR_NO_MEM;
+    f.payload = p;
+    esp_err_t e = httpd_ws_recv_frame(r, &f, f.len);
+    free(p);
+    return e;
 }
 
 static void ws_work(void *arg)
