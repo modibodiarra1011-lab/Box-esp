@@ -1,0 +1,9 @@
+{
+  "id": "22_wifi_ap",
+  "title": "WiFi Access Point + Web Server",
+  "boards": "ESP32 / Uno",
+  "pins": "LED_BUILTIN",
+  "purpose": "Standalone WiFi network with embedded control web page",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "23_espnow",
+  "title": "ESP-NOW Peer-to-Peer Communication",
+  "boards": "ESP32",
+  "pins": "N/A (radio interne)",
+  "purpose": "Low-latency router-less communication between two or more ESP32 boards",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

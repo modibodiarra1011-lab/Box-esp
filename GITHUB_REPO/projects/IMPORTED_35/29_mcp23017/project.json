@@ -1,0 +1,9 @@
+{
+  "id": "29_mcp23017",
+  "title": "MCP23017 16-Bit I2C GPIO Expander",
+  "boards": "ESP32 / Uno",
+  "pins": "SDA=GPIO21, SCL=GPIO22",
+  "purpose": "Add 16 extra digital I/O pins via I2C",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

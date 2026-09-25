@@ -1,0 +1,13 @@
+{
+  "name": "04_OLED_SSD1306",
+  "board": "ESP32 Dev Module",
+  "components": [
+    "SSD1306 128x64 I2C"
+  ],
+  "status": "READY_EXAMPLE",
+  "library_versions": {
+    "Adafruit_SSD1306": "2.5.17",
+    "Adafruit_GFX": "1.12.6",
+    "Adafruit_BusIO": "1.17.4"
+  }
+}

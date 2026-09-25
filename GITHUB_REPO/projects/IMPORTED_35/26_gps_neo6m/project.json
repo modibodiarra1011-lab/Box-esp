@@ -1,0 +1,9 @@
+{
+  "id": "26_gps_neo6m",
+  "title": "NEO-6M GPS Module",
+  "boards": "ESP32 / Uno",
+  "pins": "RX2=GPIO16, TX2=GPIO17",
+  "purpose": "Parse NMEA sentences for position, altitude, date/time",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

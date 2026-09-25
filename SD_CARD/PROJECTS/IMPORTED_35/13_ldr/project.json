@@ -1,0 +1,9 @@
+{
+  "id": "13_ldr",
+  "title": "LDR Photoresistor (Light Detection)",
+  "boards": "ESP32 / Uno",
+  "pins": "GPIO34 (ADC1_CH6)",
+  "purpose": "Detect ambient light level via voltage divider",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

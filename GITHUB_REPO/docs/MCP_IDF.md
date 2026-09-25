@@ -1,0 +1,2 @@
+\
+# MCP / automatisation ESP-IDF\n\nLe dépôt n’exige pas un serveur MCP pour fonctionner. L’automatisation de base repose sur `idf.py`, Python et GitHub Actions.\n\nSi vous activez le serveur MCP fourni par l’outillage ESP-IDF, faites-le dans un environnement développeur local et conservez le même projet/cible `esp32s3`. Ne mettez jamais de secrets dans les prompts ou fichiers MCP versionnés.\n\nCommandes de base à connaître :\n\n```powershell\n. C:\\esp\\v6.1\\esp-idf\\export.ps1\nidf.py --help\nidf.py build\nidf.py flash\nidf.py monitor\n```\n

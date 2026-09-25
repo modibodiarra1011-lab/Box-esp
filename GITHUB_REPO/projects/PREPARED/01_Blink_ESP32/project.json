@@ -1,0 +1,9 @@
+{
+  "name": "01_Blink_ESP32",
+  "board": "ESP32 Dev Module",
+  "components": [
+    "built-in LED",
+    "Serial"
+  ],
+  "status": "READY_EXAMPLE"
+}

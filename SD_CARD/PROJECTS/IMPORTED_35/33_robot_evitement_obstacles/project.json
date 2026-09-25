@@ -1,0 +1,9 @@
+{
+  "id": "33_robot_evitement_obstacles",
+  "title": "Robot d'evitement d'obstacles (HC-SR04 + 2 Servos)",
+  "boards": "ESP32",
+  "pins": "TRIG=GPIO5, ECHO=GPIO18 (diviseur), Servo tete=GPIO16, Servo direction=GPIO17",
+  "purpose": "Non-blocking obstacle avoidance state machine using ultrasonic scanning",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring. Replace steering servo with motor driver for a real wheeled robot."
+}

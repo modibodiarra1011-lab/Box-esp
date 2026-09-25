@@ -1,0 +1,9 @@
+{
+  "id": "09_ssd1306",
+  "title": "SSD1306 OLED Display 128x64",
+  "boards": "ESP32 / Uno",
+  "pins": "SDA=GPIO21, SCL=GPIO22",
+  "purpose": "Display text and graphics on I2C OLED screen",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "34_data_logger_environnemental",
+  "title": "Data Logger Environnemental (DHT22 + BH1750 + DS3231, sortie CSV)",
+  "boards": "ESP32",
+  "pins": "DHT22 DATA=GPIO4, I2C SDA=GPIO21 SCL=GPIO22",
+  "purpose": "Timestamped environmental logging (temperature, humidity, lux) in CSV format over serial",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

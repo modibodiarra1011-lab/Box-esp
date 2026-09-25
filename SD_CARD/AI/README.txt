@@ -1,0 +1,1 @@
+La memoire d apprentissage est operationnelle sous forme de journal d experiences : erreurs, tests, jobs, releases et resultats. Ce n est pas un entrainement de modele IA local.

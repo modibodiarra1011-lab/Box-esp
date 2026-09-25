@@ -1,0 +1,15 @@
+version: "4.2.0"
+description: "ESP32 LAB Master - ESP-IDF 6.1"
+dependencies:
+  espressif/cjson:
+    version: "^1.7.19"
+  espressif/usb_host_cdc_acm:
+    version: "^2.4.1"
+  espressif/usb_host_ch34x_vcp:
+    version: "^2.2.1"
+  espressif/led_strip:
+    version: "^3.0.3"
+  espressif/mdns:
+    version: "^1.13.1"
+  espressif/usb:
+    version: "^1.5.0"

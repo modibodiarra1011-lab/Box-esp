@@ -1,0 +1,9 @@
+{
+  "id": "12_sg90",
+  "title": "SG90 Micro Servo Motor",
+  "boards": "ESP32 / Uno",
+  "pins": "PWM=GPIO18",
+  "purpose": "Position control via PWM (0-180 degrees sweep)",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

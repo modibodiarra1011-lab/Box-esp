@@ -1,0 +1,9 @@
+{
+  "id": "19_encoder",
+  "title": "Rotary Encoder (KY-040 style)",
+  "boards": "ESP32 / Uno",
+  "pins": "CLK=GPIO32, DT=GPIO33, SW=GPIO25",
+  "purpose": "Count rotation steps via hardware interrupt, read push button",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "path": "projects/PREPARED/01_Blink_ESP32",
+    "name": "01_Blink_ESP32",
+    "board": "ESP32 Dev Module"
+  },
+  {
+    "path": "projects/PREPARED/06_WS2812",
+    "name": "06_WS2812",
+    "board": "ESP32 Dev Module"
+  },
+  {
+    "path": "projects/PREPARED/02_DHT11_MASTER",
+    "name": "02_DHT11_MASTER",
+    "board": "ESP32-S3"
+  },
+  {
+    "path": "projects/PREPARED/05_MPU6050",
+    "name": "05_MPU6050",
+    "board": "ESP32 Dev Module"
+  },
+  {
+    "path": "projects/PREPARED/04_OLED_SSD1306",
+    "name": "04_OLED_SSD1306",
+    "board": "ESP32 Dev Module"
+  },
+  {
+    "path": "projects/PREPARED/03_I2C_Scanner_ESP32",
+    "name": "03_I2C_Scanner_ESP32",
+    "board": "ESP32 Dev Module"
+  },
+  {
+    "path": "projects/IMPORTED_35/24_worker_diagnostic",
+    "name": "24_worker_diagnostic",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/12_sg90",
+    "name": "12_sg90",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/11_ds18b20",
+    "name": "11_ds18b20",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/23_espnow",
+    "name": "23_espnow",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/15_vl53l0x",
+    "name": "15_vl53l0x",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/35_alarme_securite_capteurs",
+    "name": "35_alarme_securite_capteurs",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/06_dht22",
+    "name": "06_dht22",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/05_i2c_scanner",
+    "name": "05_i2c_scanner",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/10_hcsr04",
+    "name": "10_hcsr04",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/02_button",
+    "name": "02_button",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/17_rc522",
+    "name": "17_rc522",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/14_bh1750",
+    "name": "14_bh1750",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/33_robot_evitement_obstacles",
+    "name": "33_robot_evitement_obstacles",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/28_ili9341",
+    "name": "28_ili9341",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/21_spi_loopback",
+    "name": "21_spi_loopback",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/16_rtc_ds3231",
+    "name": "16_rtc_ds3231",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/08_mpu6050",
+    "name": "08_mpu6050",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/19_encoder",
+    "name": "19_encoder",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/18_ws2812",
+    "name": "18_ws2812",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/01_blink",
+    "name": "01_blink",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/07_bme280",
+    "name": "07_bme280",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/03_potentiometer",
+    "name": "03_potentiometer",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/30_ads1115",
+    "name": "30_ads1115",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/20_serial_loopback",
+    "name": "20_serial_loopback",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/34_data_logger_environnemental",
+    "name": "34_data_logger_environnemental",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/04_wifi_scan",
+    "name": "04_wifi_scan",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/09_ssd1306",
+    "name": "09_ssd1306",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/31_station_meteo_complete",
+    "name": "31_station_meteo_complete",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/32_domotique_rfid_wifi",
+    "name": "32_domotique_rfid_wifi",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/22_wifi_ap",
+    "name": "22_wifi_ap",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/27_max6675",
+    "name": "27_max6675",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/26_gps_neo6m",
+    "name": "26_gps_neo6m",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/25_servo_pca9685",
+    "name": "25_servo_pca9685",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/29_mcp23017",
+    "name": "29_mcp23017",
+    "board": null
+  },
+  {
+    "path": "projects/IMPORTED_35/13_ldr",
+    "name": "13_ldr",
+    "board": null
+  }
+]

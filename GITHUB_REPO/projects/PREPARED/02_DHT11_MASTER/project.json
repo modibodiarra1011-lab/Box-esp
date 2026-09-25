@@ -1,0 +1,9 @@
+{
+  "name": "02_DHT11_MASTER",
+  "board": "ESP32-S3",
+  "components": [
+    "DHT11"
+  ],
+  "status": "READY_EXAMPLE",
+  "pin_warning": "GPIO4 is the example pin; change it if your board uses that pin for another function."
+}

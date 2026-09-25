@@ -1,0 +1,9 @@
+{
+  "id": "24_worker_diagnostic",
+  "title": "System Diagnostic & Hardware Watchdog",
+  "boards": "ESP32",
+  "pins": "N/A (diagnostic logiciel interne)",
+  "purpose": "Report chip info, heap, uptime, temperature; enforce watchdog reset",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

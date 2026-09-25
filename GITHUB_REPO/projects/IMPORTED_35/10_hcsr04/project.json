@@ -1,0 +1,9 @@
+{
+  "id": "10_hcsr04",
+  "title": "HC-SR04 Ultrasonic Distance Sensor",
+  "boards": "ESP32 / Uno",
+  "pins": "TRIG=GPIO5, ECHO=GPIO18 (via voltage divider)",
+  "purpose": "Measure distance via ultrasonic time-of-flight",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

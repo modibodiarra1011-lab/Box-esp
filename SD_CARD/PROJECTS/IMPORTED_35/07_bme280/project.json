@@ -1,0 +1,9 @@
+{
+  "id": "07_bme280",
+  "title": "BME280 Temp/Humidity/Pressure Sensor",
+  "boards": "ESP32 / Uno",
+  "pins": "SDA=GPIO21, SCL=GPIO22",
+  "purpose": "Read temperature, humidity, pressure and estimated altitude",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

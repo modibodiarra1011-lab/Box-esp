@@ -1,0 +1,9 @@
+{
+  "id": "06_dht22",
+  "title": "DHT22 Temperature & Humidity Sensor",
+  "boards": "ESP32 / Uno",
+  "pins": "DATA=GPIO4",
+  "purpose": "Read ambient temperature and relative humidity",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

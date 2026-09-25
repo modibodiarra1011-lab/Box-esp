@@ -1,0 +1,9 @@
+{
+  "id": "32_domotique_rfid_wifi",
+  "title": "Domotique - Controle d'acces RFID + Serrure Servo + Dashboard WiFi",
+  "boards": "ESP32",
+  "pins": "SPI: SCK=18 MISO=19 MOSI=23 CS=5 RST=27, Servo=GPIO16",
+  "purpose": "RFID access control with automatic servo lock and WiFi web dashboard, fully non-blocking",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring. Replace authorizedUid1[] with your real badge UID."
+}

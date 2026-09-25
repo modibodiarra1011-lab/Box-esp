@@ -1,0 +1,53 @@
+idf_component_register(
+    SRCS
+        "app_main.c"
+        "lab_config.c"
+        "wifi_lab.c"
+        "storage.c"
+        "worker_pool.c"
+        "job_engine.c"
+        "web_server.c"
+        "web_ui.cpp"
+        "web_admin.cpp"
+        "dht11.c"
+        "led_status.c"
+        "notifications.c"
+        "agent.c"
+        "ota_manager.c"
+        "usb_avr.c"
+        "reports.c"
+    INCLUDE_DIRS "."
+    REQUIRES
+        app_update
+        bootloader_support
+        cjson
+        esp_driver_gpio
+        esp_driver_sdspi
+        esp_driver_spi
+        esp_event
+        esp_http_client
+        esp_http_server
+        esp_https_ota
+        esp_netif
+        esp_system
+        esp_timer
+        esp_hw_support
+        esp_wifi
+        fatfs
+        freertos
+        heap
+        lwip
+        log
+        mdns
+        mbedtls
+        nvs_flash
+        spi_flash
+        sdmmc
+        usb
+        usb_host_cdc_acm
+        led_strip
+        vfs
+)
+
+# Keep warnings strict; the sources are formatted to avoid misleading-indentation errors.
+

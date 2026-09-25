@@ -1,0 +1,9 @@
+{
+  "id": "01_blink",
+  "title": "Blink LED",
+  "boards": "ESP32 / Uno",
+  "pins": "LED_BUILTIN",
+  "purpose": "Basic GPIO output",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

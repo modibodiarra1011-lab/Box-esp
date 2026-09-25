@@ -1,0 +1,201 @@
+[
+  {
+    "id": "01_Blink_ESP32",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "Blink",
+      "Serial"
+    ],
+    "wiring": "Aucun composant externe",
+    "expected_result": "Serial output or project-specific behavior visible",
+    "test": "BOOT + component-specific manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "02_DHT11_MASTER",
+    "board": "ESP32-S3",
+    "components": [
+      "DHT11"
+    ],
+    "wiring": "DHT11: VCC->3V3, DATA->GPIO4, GND->GND; module 3 broches souvent equipe du pull-up.",
+    "expected_result": "Serial output or project-specific behavior visible",
+    "test": "BOOT + component-specific manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "03_I2C_Scanner_ESP32",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "I2C scanner"
+    ],
+    "wiring": "SDA=GPIO21, SCL=GPIO22 (profil ESP32 Dev Module classique; verifier votre carte).",
+    "expected_result": "Serial output or project-specific behavior visible",
+    "test": "BOOT + component-specific manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "04_OLED_SSD1306",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "SSD1306 I2C"
+    ],
+    "wiring": "VCC 3V3, GND GND, SDA 21, SCL 22; adresse courante 0x3C.",
+    "expected_result": "Serial output or project-specific behavior visible",
+    "test": "BOOT + component-specific manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "05_MPU6050",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "MPU6050"
+    ],
+    "wiring": "VCC 3V3, GND GND, SDA 21, SCL 22; adresse typique 0x68.",
+    "expected_result": "Serial output or project-specific behavior visible",
+    "test": "BOOT + component-specific manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "06_WS2812",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "WS2812B"
+    ],
+    "wiring": "DATA pin configurable; ne pas alimenter une grande chaine depuis GPIO.",
+    "expected_result": "Serial output or project-specific behavior visible",
+    "test": "BOOT + component-specific manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_DHT11_CSV",
+    "board": "ESP32-S3",
+    "components": [
+      "DHT11"
+    ],
+    "wiring": "DHT11 to GPIO4; log values to LittleFS/SD CSV",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_I2C_DISCOVERY",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "I2C bus"
+    ],
+    "wiring": "SDA 21/SCL 22; scan 0x01..0x7F",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_UART_BRIDGE",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "UART"
+    ],
+    "wiring": "Use UART pins matching exact board profile; do not cross-power devices",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_PWM_LED",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "LED/Resistor"
+    ],
+    "wiring": "Select PWM-capable GPIO from board profile",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_ADC_READ",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "Analog sensor"
+    ],
+    "wiring": "Use ADC-capable pin and safe input voltage",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_WIFI_AP",
+    "board": "ESP32-S3",
+    "components": [
+      "WiFi"
+    ],
+    "wiring": "MASTER SoftAP 192.168.4.1",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_WIFI_STA_AP",
+    "board": "ESP32-S3",
+    "components": [
+      "WiFi"
+    ],
+    "wiring": "AP+STA operation with credentials stored in NVS",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_WORKER_DISCOVERY",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "WiFi/UDP"
+    ],
+    "wiring": "Broadcast HELLO then receive ASSIGN",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_WORKER_HEARTBEAT",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "WiFi/UDP"
+    ],
+    "wiring": "Heartbeat every 2 seconds",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_LOCAL_OTA",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "OTA"
+    ],
+    "wiring": "Download known image from MASTER and verify hash",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_SHA256_FILE",
+    "board": "ESP32-S3",
+    "components": [
+      "LittleFS"
+    ],
+    "wiring": "Hash a local file before use",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  },
+  {
+    "id": "ESP32_FACTORY_TEST",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "GPIO/WiFi"
+    ],
+    "wiring": "Run relevant self tests; physical buses N/A without wiring",
+    "expected_result": "PASS or N/A with explicit rationale",
+    "test": "factory or manual verification",
+    "status": "SEED_RECIPE"
+  }
+]

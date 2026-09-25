@@ -1,0 +1,8 @@
+{
+  "name": "05_MPU6050",
+  "board": "ESP32 Dev Module",
+  "components": [
+    "MPU6050"
+  ],
+  "status": "READY_EXAMPLE"
+}

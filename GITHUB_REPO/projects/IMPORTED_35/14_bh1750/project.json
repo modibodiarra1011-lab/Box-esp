@@ -1,0 +1,9 @@
+{
+  "id": "14_bh1750",
+  "title": "BH1750 Digital Light Sensor (Lux)",
+  "boards": "ESP32 / Uno",
+  "pins": "SDA=GPIO21, SCL=GPIO22",
+  "purpose": "Precise ambient light measurement in lux via I2C",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

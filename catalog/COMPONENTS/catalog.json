@@ -1,0 +1,5162 @@
+[
+  {
+    "id": "dht11",
+    "name": "DHT11",
+    "category": "environmental",
+    "protocol": "digital",
+    "voltage": 3.3,
+    "pins": "DATA + VCC + GND",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "Adafruit DHT sensor library",
+    "library_version": "1.4.7",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DATA + VCC + GND",
+    "datasheet_url": "https://www.google.com/search?q=dht11+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "dht22",
+    "name": "DHT22 / AM2302",
+    "category": "environmental",
+    "protocol": "digital",
+    "voltage": 3.3,
+    "pins": "DATA + VCC + GND",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "Adafruit DHT sensor library",
+    "library_version": "1.4.7",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DATA + VCC + GND",
+    "datasheet_url": "https://www.google.com/search?q=dht22+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bme280",
+    "name": "BME280",
+    "category": "environmental",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=bme280+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bmp280",
+    "name": "BMP280",
+    "category": "environmental",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=bmp280+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "aht10",
+    "name": "AHT10",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=aht10+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "aht20",
+    "name": "AHT20",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=aht20+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sht30",
+    "name": "SHT30",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=sht30+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sht31",
+    "name": "SHT31",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=sht31+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sht40",
+    "name": "SHT40",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=sht40+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "scd30",
+    "name": "SCD30",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=scd30+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "scd40",
+    "name": "SCD40",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=scd40+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "scd41",
+    "name": "SCD41",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=scd41+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ds18b20",
+    "name": "DS18B20",
+    "category": "environmental",
+    "protocol": "1-Wire",
+    "voltage": 3.3,
+    "pins": "DATA + VCC + GND",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DATA + VCC + GND",
+    "datasheet_url": "https://www.google.com/search?q=ds18b20+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "max31865",
+    "name": "MAX31865",
+    "category": "temperature",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=max31865+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "max6675",
+    "name": "MAX6675",
+    "category": "temperature",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "SO/SCK/CS",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SO/SCK/CS",
+    "datasheet_url": "https://www.google.com/search?q=max6675+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "max31855",
+    "name": "MAX31855",
+    "category": "temperature",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "SO/SCK/CS",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SO/SCK/CS",
+    "datasheet_url": "https://www.google.com/search?q=max31855+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mlx90614",
+    "name": "MLX90614",
+    "category": "temperature",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=mlx90614+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mlx90640",
+    "name": "MLX90640",
+    "category": "temperature",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=mlx90640+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "tmp102",
+    "name": "TMP102",
+    "category": "temperature",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=tmp102+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "lm75",
+    "name": "LM75",
+    "category": "temperature",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=lm75+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mpu6050",
+    "name": "MPU6050",
+    "category": "motion",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=mpu6050+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mpu9250",
+    "name": "MPU9250",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=mpu9250+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "icm20948",
+    "name": "ICM-20948",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=icm20948+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bno055",
+    "name": "BNO055",
+    "category": "motion",
+    "protocol": "I2C/UART",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=bno055+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bno080",
+    "name": "BNO080",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=bno080+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "adxl345",
+    "name": "ADXL345",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=adxl345+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "lis3dh",
+    "name": "LIS3DH",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=lis3dh+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "lis2dw12",
+    "name": "LIS2DW12",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=lis2dw12+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mma8451",
+    "name": "MMA8451",
+    "category": "motion",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=mma8451+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "l3gd20",
+    "name": "L3GD20",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=l3gd20+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "lsm6ds3",
+    "name": "LSM6DS3",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=lsm6ds3+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "lsm9ds1",
+    "name": "LSM9DS1",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=lsm9ds1+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "qmc5883l",
+    "name": "QMC5883L",
+    "category": "motion",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=qmc5883l+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "hmc5883l",
+    "name": "HMC5883L",
+    "category": "motion",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=hmc5883l+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "vl53l0x",
+    "name": "VL53L0X",
+    "category": "distance",
+    "protocol": "I2C",
+    "voltage": 2.8,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=vl53l0x+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "vl53l1x",
+    "name": "VL53L1X",
+    "category": "distance",
+    "protocol": "I2C",
+    "voltage": 2.8,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=vl53l1x+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "vl6180x",
+    "name": "VL6180X",
+    "category": "distance",
+    "protocol": "I2C",
+    "voltage": 2.8,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=vl6180x+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "hc_sr04",
+    "name": "HC-SR04",
+    "category": "distance",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "TRIG/ECHO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TRIG/ECHO",
+    "datasheet_url": "https://www.google.com/search?q=hc+sr04+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "jsn_sr04t",
+    "name": "JSN-SR04T",
+    "category": "distance",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "TRIG/ECHO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TRIG/ECHO",
+    "datasheet_url": "https://www.google.com/search?q=jsn+sr04t+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "us100",
+    "name": "US-100",
+    "category": "distance",
+    "protocol": "UART/GPIO",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=us100+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sharp_ir",
+    "name": "Sharp GP2Y0A",
+    "category": "distance",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=sharp+ir+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bh1750",
+    "name": "BH1750",
+    "category": "light",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=bh1750+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "veml7700",
+    "name": "VEML7700",
+    "category": "light",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=veml7700+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "tsl2561",
+    "name": "TSL2561",
+    "category": "light",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=tsl2561+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "tsl2591",
+    "name": "TSL2591",
+    "category": "light",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=tsl2591+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ltr390",
+    "name": "LTR-390",
+    "category": "light",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ltr390+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "tcs34725",
+    "name": "TCS34725",
+    "category": "light",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=tcs34725+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "tcs3200",
+    "name": "TCS3200",
+    "category": "light",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=tcs3200+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ldr_module",
+    "name": "LDR module",
+    "category": "light",
+    "protocol": "Analog",
+    "voltage": 3.3,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=ldr+module+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pir_hcsr501",
+    "name": "HC-SR501 PIR",
+    "category": "motion",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "OUT",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "OUT",
+    "datasheet_url": "https://www.google.com/search?q=pir+hcsr501+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pir_am312",
+    "name": "AM312 PIR",
+    "category": "motion",
+    "protocol": "GPIO",
+    "voltage": 3.3,
+    "pins": "OUT",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "OUT",
+    "datasheet_url": "https://www.google.com/search?q=pir+am312+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "rcwl0516",
+    "name": "RCWL-0516",
+    "category": "motion",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "OUT",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "OUT",
+    "datasheet_url": "https://www.google.com/search?q=rcwl0516+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mic_max9814",
+    "name": "MAX9814 microphone",
+    "category": "audio",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO",
+    "datasheet_url": "https://www.google.com/search?q=mic+max9814+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sound_ky037",
+    "name": "KY-037 sound module",
+    "category": "audio",
+    "protocol": "Analog/GPIO",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=sound+ky037+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ssd1306_128x64",
+    "name": "SSD1306 128x64",
+    "category": "display",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ssd1306+128x64+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sh1106_128x64",
+    "name": "SH1106 128x64",
+    "category": "display",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=sh1106+128x64+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ili9341",
+    "name": "ILI9341 TFT",
+    "category": "display",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=ili9341+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "st7735",
+    "name": "ST7735 TFT",
+    "category": "display",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=st7735+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "st7789",
+    "name": "ST7789 TFT",
+    "category": "display",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=st7789+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ili9488",
+    "name": "ILI9488 TFT",
+    "category": "display",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=ili9488+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "eink_2_13",
+    "name": "2.13 e-paper",
+    "category": "display",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=eink+2+13+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "tm1637",
+    "name": "TM1637 7-seg",
+    "category": "display",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "CLK/DIO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "CLK/DIO",
+    "datasheet_url": "https://www.google.com/search?q=tm1637+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "max7219",
+    "name": "MAX7219",
+    "category": "display",
+    "protocol": "SPI",
+    "voltage": 5,
+    "pins": "DIN/CLK/CS",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DIN/CLK/CS",
+    "datasheet_url": "https://www.google.com/search?q=max7219+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ht16k33",
+    "name": "HT16K33",
+    "category": "display",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ht16k33+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ws2812b",
+    "name": "WS2812B",
+    "category": "led",
+    "protocol": "Single-wire",
+    "voltage": 5,
+    "pins": "DIN",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DIN",
+    "datasheet_url": "https://www.google.com/search?q=ws2812b+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sk6812",
+    "name": "SK6812",
+    "category": "led",
+    "protocol": "Single-wire",
+    "voltage": 5,
+    "pins": "DIN",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DIN",
+    "datasheet_url": "https://www.google.com/search?q=sk6812+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "neopixel_ring",
+    "name": "NeoPixel ring",
+    "category": "led",
+    "protocol": "Single-wire",
+    "voltage": 5,
+    "pins": "DIN",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DIN",
+    "datasheet_url": "https://www.google.com/search?q=neopixel+ring+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "apa102",
+    "name": "APA102",
+    "category": "led",
+    "protocol": "SPI-like",
+    "voltage": 5,
+    "pins": "DATA/CLOCK",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DATA/CLOCK",
+    "datasheet_url": "https://www.google.com/search?q=apa102+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pca9685",
+    "name": "PCA9685",
+    "category": "actuator driver",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=pca9685+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sg90",
+    "name": "SG90 servo",
+    "category": "servo",
+    "protocol": "PWM",
+    "voltage": 5,
+    "pins": "signal",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "signal",
+    "datasheet_url": "https://www.google.com/search?q=sg90+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mg90s",
+    "name": "MG90S servo",
+    "category": "servo",
+    "protocol": "PWM",
+    "voltage": 5,
+    "pins": "signal",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "signal",
+    "datasheet_url": "https://www.google.com/search?q=mg90s+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mg996r",
+    "name": "MG996R servo",
+    "category": "servo",
+    "protocol": "PWM",
+    "voltage": 6,
+    "pins": "signal",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "signal",
+    "datasheet_url": "https://www.google.com/search?q=mg996r+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "continuous_360",
+    "name": "360-degree servo",
+    "category": "servo",
+    "protocol": "PWM",
+    "voltage": 5,
+    "pins": "signal",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "signal",
+    "datasheet_url": "https://www.google.com/search?q=continuous+360+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "l298n",
+    "name": "L298N",
+    "category": "motor driver",
+    "protocol": "GPIO/PWM",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=l298n+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "tb6612fng",
+    "name": "TB6612FNG",
+    "category": "motor driver",
+    "protocol": "GPIO/PWM",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=tb6612fng+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "drv8833",
+    "name": "DRV8833",
+    "category": "motor driver",
+    "protocol": "GPIO/PWM",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=drv8833+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "a4988",
+    "name": "A4988",
+    "category": "motor driver",
+    "protocol": "STEP/DIR",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=a4988+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "tca9548a",
+    "name": "TCA9548A",
+    "category": "multiplexer",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=tca9548a+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "rc522",
+    "name": "MFRC522 RFID",
+    "category": "RFID",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=rc522+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pn532",
+    "name": "PN532 NFC",
+    "category": "RFID",
+    "protocol": "I2C/SPI/UART",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=pn532+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "nfc_st25dv",
+    "name": "ST25DV",
+    "category": "RFID",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=nfc+st25dv+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "neo6m",
+    "name": "NEO-6M GPS",
+    "category": "GPS",
+    "protocol": "UART",
+    "voltage": 3.3,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=neo6m+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "neo_m8n",
+    "name": "u-blox M8N",
+    "category": "GPS",
+    "protocol": "UART/I2C",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=neo+m8n+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "neo_m9n",
+    "name": "u-blox M9N",
+    "category": "GPS",
+    "protocol": "UART/I2C",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=neo+m9n+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "atgm336h",
+    "name": "ATGM336H GPS",
+    "category": "GPS",
+    "protocol": "UART",
+    "voltage": 3.3,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=atgm336h+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sim800l",
+    "name": "SIM800L",
+    "category": "cellular",
+    "protocol": "UART",
+    "voltage": 4.0,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=sim800l+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sim7600",
+    "name": "SIM7600",
+    "category": "cellular",
+    "protocol": "UART/USB",
+    "voltage": 3.8,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=sim7600+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "a7670",
+    "name": "A7670",
+    "category": "cellular",
+    "protocol": "UART",
+    "voltage": 3.8,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=a7670+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sx1276",
+    "name": "SX1276 LoRa",
+    "category": "radio",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=sx1276+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sx1278",
+    "name": "SX1278 LoRa",
+    "category": "radio",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=sx1278+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sx1262",
+    "name": "SX1262 LoRa",
+    "category": "radio",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=sx1262+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ra02",
+    "name": "RA-02 LoRa",
+    "category": "radio",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=ra02+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "rfm95",
+    "name": "RFM95",
+    "category": "radio",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=rfm95+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "nrf24l01",
+    "name": "nRF24L01+",
+    "category": "radio",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=nrf24l01+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "cc1101",
+    "name": "CC1101",
+    "category": "radio",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=cc1101+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "espnow",
+    "name": "ESP-NOW built-in",
+    "category": "radio",
+    "protocol": "WiFi radio",
+    "voltage": 3.3,
+    "pins": "no external pins",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "no external pins",
+    "datasheet_url": "https://www.google.com/search?q=espnow+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ina219",
+    "name": "INA219",
+    "category": "power monitoring",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ina219+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ina226",
+    "name": "INA226",
+    "category": "power monitoring",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ina226+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ina3221",
+    "name": "INA3221",
+    "category": "power monitoring",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ina3221+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ads1115",
+    "name": "ADS1115",
+    "category": "ADC",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ads1115+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ads1015",
+    "name": "ADS1015",
+    "category": "ADC",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ads1015+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mcp3008",
+    "name": "MCP3008",
+    "category": "ADC",
+    "protocol": "SPI",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=mcp3008+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mcp4725",
+    "name": "MCP4725",
+    "category": "DAC",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=mcp4725+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mcp4921",
+    "name": "MCP4921",
+    "category": "DAC",
+    "protocol": "SPI",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=mcp4921+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pcf8591",
+    "name": "PCF8591",
+    "category": "ADC/DAC",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=pcf8591+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "hx711",
+    "name": "HX711",
+    "category": "load cell",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "DT/SCK",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DT/SCK",
+    "datasheet_url": "https://www.google.com/search?q=hx711+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "loadcell_1kg",
+    "name": "Load cell 1kg",
+    "category": "load cell",
+    "protocol": "Analog via HX711",
+    "voltage": 5,
+    "pins": "4-wire",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "4-wire",
+    "datasheet_url": "https://www.google.com/search?q=loadcell+1kg+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "max30102",
+    "name": "MAX30102",
+    "category": "biometric",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=max30102+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "max30105",
+    "name": "MAX30105",
+    "category": "biometric",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=max30105+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mlx90393",
+    "name": "MLX90393",
+    "category": "magnetometer",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=mlx90393+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "relay_1ch",
+    "name": "1-channel relay module",
+    "category": "actuator",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "IN",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "IN",
+    "datasheet_url": "https://www.google.com/search?q=relay+1ch+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "relay_4ch",
+    "name": "4-channel relay module",
+    "category": "actuator",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "IN1..IN4",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "IN1..IN4",
+    "datasheet_url": "https://www.google.com/search?q=relay+4ch+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "solid_state_relay",
+    "name": "Solid state relay module",
+    "category": "actuator",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "IN",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "IN",
+    "datasheet_url": "https://www.google.com/search?q=solid+state+relay+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mosfet_irf520",
+    "name": "IRF520 MOSFET module",
+    "category": "actuator",
+    "protocol": "GPIO/PWM",
+    "voltage": 5,
+    "pins": "SIG",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SIG",
+    "datasheet_url": "https://www.google.com/search?q=mosfet+irf520+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mosfet_fet_driver",
+    "name": "Logic-level MOSFET module",
+    "category": "actuator",
+    "protocol": "GPIO/PWM",
+    "voltage": 5,
+    "pins": "SIG",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SIG",
+    "datasheet_url": "https://www.google.com/search?q=mosfet+fet+driver+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "buzzer_active",
+    "name": "Active buzzer",
+    "category": "audio",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "SIG",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SIG",
+    "datasheet_url": "https://www.google.com/search?q=buzzer+active+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "buzzer_passive",
+    "name": "Passive buzzer",
+    "category": "audio",
+    "protocol": "PWM",
+    "voltage": 5,
+    "pins": "SIG",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SIG",
+    "datasheet_url": "https://www.google.com/search?q=buzzer+passive+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "speaker_8ohm",
+    "name": "8 ohm speaker",
+    "category": "audio",
+    "protocol": "AMP",
+    "voltage": 5,
+    "pins": "external driver",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "external driver",
+    "datasheet_url": "https://www.google.com/search?q=speaker+8ohm+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "max98357",
+    "name": "MAX98357A",
+    "category": "audio",
+    "protocol": "I2S",
+    "voltage": 5,
+    "pins": "BCLK/LRCLK/DIN",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "BCLK/LRCLK/DIN",
+    "datasheet_url": "https://www.google.com/search?q=max98357+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pcm5102",
+    "name": "PCM5102A",
+    "category": "audio",
+    "protocol": "I2S",
+    "voltage": 5,
+    "pins": "BCLK/LRCLK/DIN",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "BCLK/LRCLK/DIN",
+    "datasheet_url": "https://www.google.com/search?q=pcm5102+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "inmp441",
+    "name": "INMP441",
+    "category": "audio",
+    "protocol": "I2S",
+    "voltage": 3.3,
+    "pins": "SCK/WS/SD",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SCK/WS/SD",
+    "datasheet_url": "https://www.google.com/search?q=inmp441+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "max4466",
+    "name": "MAX4466 microphone",
+    "category": "audio",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO",
+    "datasheet_url": "https://www.google.com/search?q=max4466+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "micro_sd_spi",
+    "name": "microSD SPI module",
+    "category": "storage",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=micro+sd+spi+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "microsd_sdmmc",
+    "name": "microSD SDMMC",
+    "category": "storage",
+    "protocol": "SDMMC",
+    "voltage": 3.3,
+    "pins": "board-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "board-dependent",
+    "datasheet_url": "https://www.google.com/search?q=microsd+sdmmc+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "w25q64",
+    "name": "W25Q64 flash",
+    "category": "storage",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "CS/CLK/MOSI/MISO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "CS/CLK/MOSI/MISO",
+    "datasheet_url": "https://www.google.com/search?q=w25q64+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "w25q128",
+    "name": "W25Q128 flash",
+    "category": "storage",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "CS/CLK/MOSI/MISO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "CS/CLK/MOSI/MISO",
+    "datasheet_url": "https://www.google.com/search?q=w25q128+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "at24c32",
+    "name": "AT24C32 EEPROM",
+    "category": "storage",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=at24c32+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "fram_mb85rc",
+    "name": "MB85RC FRAM",
+    "category": "storage",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=fram+mb85rc+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ds3231",
+    "name": "DS3231 RTC",
+    "category": "time",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ds3231+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ds1307",
+    "name": "DS1307 RTC",
+    "category": "time",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ds1307+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pcf8523",
+    "name": "PCF8523 RTC",
+    "category": "time",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=pcf8523+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ds2401",
+    "name": "DS2401",
+    "category": "identity",
+    "protocol": "1-Wire",
+    "voltage": 3.3,
+    "pins": "DATA",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DATA",
+    "datasheet_url": "https://www.google.com/search?q=ds2401+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "m24c02",
+    "name": "M24C02 EEPROM",
+    "category": "storage",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=m24c02+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "m24c64",
+    "name": "M24C64 EEPROM",
+    "category": "storage",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=m24c64+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "rotary_encoder",
+    "name": "Rotary encoder",
+    "category": "input",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "A/B/SW",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "A/B/SW",
+    "datasheet_url": "https://www.google.com/search?q=rotary+encoder+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pot_10k",
+    "name": "10k potentiometer",
+    "category": "input",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "wiper + ends",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "wiper + ends",
+    "datasheet_url": "https://www.google.com/search?q=pot+10k+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "button",
+    "name": "Push button",
+    "category": "input",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "digital input",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "digital input",
+    "datasheet_url": "https://www.google.com/search?q=button+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "limit_switch",
+    "name": "Limit switch",
+    "category": "input",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "NO/NC",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "NO/NC",
+    "datasheet_url": "https://www.google.com/search?q=limit+switch+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "keypad_4x4",
+    "name": "4x4 matrix keypad",
+    "category": "input",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "rows/cols",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "rows/cols",
+    "datasheet_url": "https://www.google.com/search?q=keypad+4x4+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "joystick_xy",
+    "name": "2-axis joystick",
+    "category": "input",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "VRx/VRy/SW",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "VRx/VRy/SW",
+    "datasheet_url": "https://www.google.com/search?q=joystick+xy+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "reed_switch",
+    "name": "Reed switch",
+    "category": "input",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "digital input",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "digital input",
+    "datasheet_url": "https://www.google.com/search?q=reed+switch+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "tilt_switch",
+    "name": "Tilt switch",
+    "category": "input",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "digital input",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "digital input",
+    "datasheet_url": "https://www.google.com/search?q=tilt+switch+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "vibration_sw420",
+    "name": "SW-420 vibration",
+    "category": "input",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DO",
+    "datasheet_url": "https://www.google.com/search?q=vibration+sw420+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "flame_sensor",
+    "name": "Flame sensor module",
+    "category": "safety/sensor",
+    "protocol": "Analog/GPIO",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=flame+sensor+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "gas_mq2",
+    "name": "MQ-2 gas module",
+    "category": "safety/sensor",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=gas+mq2+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "gas_mq135",
+    "name": "MQ-135 gas module",
+    "category": "safety/sensor",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=gas+mq135+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mq7",
+    "name": "MQ-7 gas module",
+    "category": "safety/sensor",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=mq7+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ir_receiver",
+    "name": "IR receiver VS1838B",
+    "category": "communication",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "OUT",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "OUT",
+    "datasheet_url": "https://www.google.com/search?q=ir+receiver+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ir_led",
+    "name": "IR LED",
+    "category": "led",
+    "protocol": "GPIO/PWM",
+    "voltage": 5,
+    "pins": "through resistor/transistor",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "through resistor/transistor",
+    "datasheet_url": "https://www.google.com/search?q=ir+led+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "hc05",
+    "name": "HC-05 Bluetooth",
+    "category": "communication",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=hc05+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "hc06",
+    "name": "HC-06 Bluetooth",
+    "category": "communication",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=hc06+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bt_classic",
+    "name": "Bluetooth Classic ESP32 built-in",
+    "category": "communication",
+    "protocol": "Bluetooth",
+    "voltage": 3.3,
+    "pins": "built-in",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "built-in",
+    "datasheet_url": "https://www.google.com/search?q=bt+classic+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ble",
+    "name": "BLE ESP32 built-in",
+    "category": "communication",
+    "protocol": "BLE",
+    "voltage": 3.3,
+    "pins": "built-in",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "built-in",
+    "datasheet_url": "https://www.google.com/search?q=ble+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "usb_host_s3",
+    "name": "ESP32-S3 USB Host",
+    "category": "communication",
+    "protocol": "USB OTG",
+    "voltage": 5,
+    "pins": "board/routing dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "board/routing dependent",
+    "datasheet_url": "https://www.google.com/search?q=usb+host+s3+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ch343",
+    "name": "CH343 USB-UART bridge",
+    "category": "communication",
+    "protocol": "UART/USB",
+    "voltage": 5,
+    "pins": "board dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "board dependent",
+    "datasheet_url": "https://www.google.com/search?q=ch343+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pcf8574",
+    "name": "PCF8574 I/O expander",
+    "category": "GPIO expander",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=pcf8574+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mcp23017",
+    "name": "MCP23017 I/O expander",
+    "category": "GPIO expander",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=mcp23017+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mcp23008",
+    "name": "MCP23008 I/O expander",
+    "category": "GPIO expander",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=mcp23008+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pca9546a",
+    "name": "PCA9546A I2C switch",
+    "category": "multiplexer",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=pca9546a+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "74hc595",
+    "name": "74HC595",
+    "category": "logic",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "SER/CLK/LAT",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SER/CLK/LAT",
+    "datasheet_url": "https://www.google.com/search?q=74hc595+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "74hc165",
+    "name": "74HC165",
+    "category": "logic",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "PAR/CLK/LOAD",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "PAR/CLK/LOAD",
+    "datasheet_url": "https://www.google.com/search?q=74hc165+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "74hc4051",
+    "name": "74HC4051",
+    "category": "analog mux",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "address pins + signal",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "address pins + signal",
+    "datasheet_url": "https://www.google.com/search?q=74hc4051+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "74hc4052",
+    "name": "74HC4052",
+    "category": "analog mux",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "address pins + signals",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "address pins + signals",
+    "datasheet_url": "https://www.google.com/search?q=74hc4052+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "74hc4053",
+    "name": "74HC4053",
+    "category": "analog mux",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "address pins + signals",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "address pins + signals",
+    "datasheet_url": "https://www.google.com/search?q=74hc4053+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "neopixel_matrix",
+    "name": "NeoPixel matrix",
+    "category": "led",
+    "protocol": "Single-wire",
+    "voltage": 5,
+    "pins": "DIN",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DIN",
+    "datasheet_url": "https://www.google.com/search?q=neopixel+matrix+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "led_rgb_common_anode",
+    "name": "RGB LED common anode",
+    "category": "led",
+    "protocol": "GPIO/PWM",
+    "voltage": 5,
+    "pins": "R/G/B + common",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "R/G/B + common",
+    "datasheet_url": "https://www.google.com/search?q=led+rgb+common+anode+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "led_rgb_common_cathode",
+    "name": "RGB LED common cathode",
+    "category": "led",
+    "protocol": "GPIO/PWM",
+    "voltage": 5,
+    "pins": "R/G/B + common",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "R/G/B + common",
+    "datasheet_url": "https://www.google.com/search?q=led+rgb+common+cathode+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "led_bargraph",
+    "name": "LED bargraph",
+    "category": "led",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "multiple GPIOs",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "multiple GPIOs",
+    "datasheet_url": "https://www.google.com/search?q=led+bargraph+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "motor_dc",
+    "name": "DC motor",
+    "category": "motor",
+    "protocol": "Driver required",
+    "voltage": 6,
+    "pins": "two terminals",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "two terminals",
+    "datasheet_url": "https://www.google.com/search?q=motor+dc+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "motor_stepper_28byj48",
+    "name": "28BYJ-48 stepper",
+    "category": "motor",
+    "protocol": "Driver",
+    "voltage": 5,
+    "pins": "ULN2003",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "ULN2003",
+    "datasheet_url": "https://www.google.com/search?q=motor+stepper+28byj48+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "uln2003",
+    "name": "ULN2003",
+    "category": "motor driver",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "inputs/outputs",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "inputs/outputs",
+    "datasheet_url": "https://www.google.com/search?q=uln2003+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "tmc2208",
+    "name": "TMC2208",
+    "category": "motor driver",
+    "protocol": "UART/STEP",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=tmc2208+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "tmc2209",
+    "name": "TMC2209",
+    "category": "motor driver",
+    "protocol": "UART/STEP",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=tmc2209+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ec_probe",
+    "name": "EC conductivity probe module",
+    "category": "environmental",
+    "protocol": "Analog/UART",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=ec+probe+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ph4502c",
+    "name": "pH-4502C module",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO",
+    "datasheet_url": "https://www.google.com/search?q=ph4502c+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "orp_module",
+    "name": "ORP module",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO",
+    "datasheet_url": "https://www.google.com/search?q=orp+module+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "turbidity",
+    "name": "Turbidity sensor",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO",
+    "datasheet_url": "https://www.google.com/search?q=turbidity+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "water_level",
+    "name": "Water level sensor",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "SIG",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SIG",
+    "datasheet_url": "https://www.google.com/search?q=water+level+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "soil_moisture",
+    "name": "Soil moisture probe",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO",
+    "datasheet_url": "https://www.google.com/search?q=soil+moisture+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "capacitive_soil",
+    "name": "Capacitive soil moisture v1.2",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 3.3,
+    "pins": "AO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO",
+    "datasheet_url": "https://www.google.com/search?q=capacitive+soil+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bme680",
+    "name": "BME680",
+    "category": "environmental",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=bme680+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bme688",
+    "name": "BME688",
+    "category": "environmental",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=bme688+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sgp30",
+    "name": "SGP30",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=sgp30+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sgp40",
+    "name": "SGP40",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=sgp40+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ens160",
+    "name": "ENS160",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ens160+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ccs811",
+    "name": "CCS811",
+    "category": "environmental",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=ccs811+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mh_z19b",
+    "name": "MH-Z19B CO2",
+    "category": "environmental",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=mh+z19b+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mh_z19c",
+    "name": "MH-Z19C CO2",
+    "category": "environmental",
+    "protocol": "UART/PWM",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=mh+z19c+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "waterproof_ds18b20",
+    "name": "Waterproof DS18B20",
+    "category": "environmental",
+    "protocol": "1-Wire",
+    "voltage": 3.3,
+    "pins": "DATA",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DATA",
+    "datasheet_url": "https://www.google.com/search?q=waterproof+ds18b20+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "dallas_ds18b20_probe",
+    "name": "Dallas DS18B20 probe",
+    "category": "environmental",
+    "protocol": "1-Wire",
+    "voltage": 3.3,
+    "pins": "DATA",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "DATA",
+    "datasheet_url": "https://www.google.com/search?q=dallas+ds18b20+probe+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bmp388",
+    "name": "BMP388",
+    "category": "environmental",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=bmp388+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bmp390",
+    "name": "BMP390",
+    "category": "environmental",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=bmp390+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bmi160",
+    "name": "BMI160",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=bmi160+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "bmi270",
+    "name": "BMI270",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=bmi270+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ism330",
+    "name": "ISM330DLC",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=ism330+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "iis2dlpc",
+    "name": "IIS2DLPC",
+    "category": "motion",
+    "protocol": "I2C/SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=iis2dlpc+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "lora_e22",
+    "name": "Ebyte E22 LoRa UART",
+    "category": "radio",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "TX/RX/AUX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX/AUX",
+    "datasheet_url": "https://www.google.com/search?q=lora+e22+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "lora_e32",
+    "name": "Ebyte E32 LoRa UART",
+    "category": "radio",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "TX/RX/AUX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX/AUX",
+    "datasheet_url": "https://www.google.com/search?q=lora+e32+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "rf95",
+    "name": "RFM95-compatible LoRa",
+    "category": "radio",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=rf95+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "rfm69",
+    "name": "RFM69",
+    "category": "radio",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=rfm69+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "oled_i2c_096",
+    "name": "0.96in OLED I2C",
+    "category": "display",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=oled+i2c+096+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "oled_i2c_13",
+    "name": "1.3in OLED I2C",
+    "category": "display",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=oled+i2c+13+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "lcd1602_i2c",
+    "name": "1602 LCD I2C backpack",
+    "category": "display",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=lcd1602+i2c+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "lcd2004_i2c",
+    "name": "2004 LCD I2C backpack",
+    "category": "display",
+    "protocol": "I2C",
+    "voltage": 5,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=lcd2004+i2c+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "nextion",
+    "name": "Nextion HMI",
+    "category": "display",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=nextion+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "gps_neo7m",
+    "name": "NEO-7M GPS",
+    "category": "GPS",
+    "protocol": "UART",
+    "voltage": 3.3,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=gps+neo7m+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "gps_neo8m",
+    "name": "NEO-8M GPS",
+    "category": "GPS",
+    "protocol": "UART",
+    "voltage": 3.3,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=gps+neo8m+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "gps_neo_m10",
+    "name": "u-blox M10 GPS",
+    "category": "GPS",
+    "protocol": "UART/I2C",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=gps+neo+m10+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "can_mcp2515",
+    "name": "MCP2515 CAN controller",
+    "category": "communication",
+    "protocol": "SPI",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=can+mcp2515+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "can_tja1050",
+    "name": "TJA1050 CAN transceiver",
+    "category": "communication",
+    "protocol": "CAN",
+    "voltage": 5,
+    "pins": "CANH/CANL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "CANH/CANL",
+    "datasheet_url": "https://www.google.com/search?q=can+tja1050+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "can_sn65hvd230",
+    "name": "SN65HVD230 CAN transceiver",
+    "category": "communication",
+    "protocol": "CAN",
+    "voltage": 3.3,
+    "pins": "CANH/CANL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "CANH/CANL",
+    "datasheet_url": "https://www.google.com/search?q=can+sn65hvd230+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "rs485_max485",
+    "name": "MAX485 RS-485 module",
+    "category": "communication",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "A/B/RO/DI",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "A/B/RO/DI",
+    "datasheet_url": "https://www.google.com/search?q=rs485+max485+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "rs485_sp3485",
+    "name": "SP3485 RS-485",
+    "category": "communication",
+    "protocol": "UART",
+    "voltage": 3.3,
+    "pins": "A/B/RO/DI",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "A/B/RO/DI",
+    "datasheet_url": "https://www.google.com/search?q=rs485+sp3485+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ethernet_w5500",
+    "name": "W5500 Ethernet",
+    "category": "communication",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=ethernet+w5500+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ethernet_enc28j60",
+    "name": "ENC28J60 Ethernet",
+    "category": "communication",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=ethernet+enc28j60+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "wifi_esp8266",
+    "name": "ESP8266 module",
+    "category": "communication",
+    "protocol": "UART/WiFi",
+    "voltage": 3.3,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=wifi+esp8266+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "microphone_analog",
+    "name": "Analog microphone module",
+    "category": "audio",
+    "protocol": "Analog",
+    "voltage": 3.3,
+    "pins": "AO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO",
+    "datasheet_url": "https://www.google.com/search?q=microphone+analog+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "electret_max9814",
+    "name": "Electret + MAX9814",
+    "category": "audio",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO",
+    "datasheet_url": "https://www.google.com/search?q=electret+max9814+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "dac_max98357",
+    "name": "MAX98357 I2S amplifier",
+    "category": "audio",
+    "protocol": "I2S",
+    "voltage": 5,
+    "pins": "BCLK/LRCLK/DIN",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "BCLK/LRCLK/DIN",
+    "datasheet_url": "https://www.google.com/search?q=dac+max98357+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pir_ld2410",
+    "name": "HLK-LD2410 radar presence",
+    "category": "motion",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=pir+ld2410+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ld2410c",
+    "name": "HLK-LD2410C",
+    "category": "motion",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=ld2410c+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "mmwave_c4001",
+    "name": "24GHz mmWave sensor",
+    "category": "motion",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=mmwave+c4001+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "rain_sensor",
+    "name": "Rain sensor module",
+    "category": "environmental",
+    "protocol": "Analog/GPIO",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=rain+sensor+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "anemometer",
+    "name": "Cup anemometer module",
+    "category": "environmental",
+    "protocol": "Pulse",
+    "voltage": 5,
+    "pins": "signal",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "signal",
+    "datasheet_url": "https://www.google.com/search?q=anemometer+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "wind_vane",
+    "name": "Wind vane",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "signal",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "signal",
+    "datasheet_url": "https://www.google.com/search?q=wind+vane+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "uv_guva_s12sd",
+    "name": "GUVA-S12SD UV",
+    "category": "light",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO",
+    "datasheet_url": "https://www.google.com/search?q=uv+guva+s12sd+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "veml6070",
+    "name": "VEML6070 UV",
+    "category": "light",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=veml6070+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "veml6075",
+    "name": "VEML6075 UV",
+    "category": "light",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=veml6075+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "as7265x",
+    "name": "AS7265x spectral sensor",
+    "category": "light",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=as7265x+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "as7341",
+    "name": "AS7341 spectral sensor",
+    "category": "light",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=as7341+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "apds9960",
+    "name": "APDS-9960 gesture/proximity",
+    "category": "light",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=apds9960+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "fingerprint_as608",
+    "name": "AS608 fingerprint",
+    "category": "biometric",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=fingerprint+as608+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "fingerprint_r503",
+    "name": "R503 fingerprint",
+    "category": "biometric",
+    "protocol": "UART",
+    "voltage": 5,
+    "pins": "TX/RX",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "TX/RX",
+    "datasheet_url": "https://www.google.com/search?q=fingerprint+r503+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "nfc_pn7150",
+    "name": "PN7150 NFC",
+    "category": "RFID",
+    "protocol": "I2C",
+    "voltage": 3.3,
+    "pins": "SDA/SCL",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "SDA/SCL",
+    "datasheet_url": "https://www.google.com/search?q=nfc+pn7150+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "rc522_clone",
+    "name": "RC522 compatible module",
+    "category": "RFID",
+    "protocol": "SPI",
+    "voltage": 3.3,
+    "pins": "module-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "module-dependent: verify exact board/module pin labels",
+    "datasheet_url": "https://www.google.com/search?q=rc522+clone+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sd_card_1bit",
+    "name": "SD card 1-bit SDMMC",
+    "category": "storage",
+    "protocol": "SDMMC",
+    "voltage": 3.3,
+    "pins": "board-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "board-dependent",
+    "datasheet_url": "https://www.google.com/search?q=sd+card+1bit+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "sd_card_4bit",
+    "name": "SD card 4-bit SDMMC",
+    "category": "storage",
+    "protocol": "SDMMC",
+    "voltage": 3.3,
+    "pins": "board-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "board-dependent",
+    "datasheet_url": "https://www.google.com/search?q=sd+card+4bit+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "usb_mass_storage",
+    "name": "USB mass storage (S3 host)",
+    "category": "storage",
+    "protocol": "USB OTG",
+    "voltage": 5,
+    "pins": "board-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "board-dependent",
+    "datasheet_url": "https://www.google.com/search?q=usb+mass+storage+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "usb_keyboard",
+    "name": "USB HID keyboard (S3 host)",
+    "category": "input",
+    "protocol": "USB OTG",
+    "voltage": 5,
+    "pins": "board-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "board-dependent",
+    "datasheet_url": "https://www.google.com/search?q=usb+keyboard+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "usb_mouse",
+    "name": "USB HID mouse (S3 host)",
+    "category": "input",
+    "protocol": "USB OTG",
+    "voltage": 5,
+    "pins": "board-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "board-dependent",
+    "datasheet_url": "https://www.google.com/search?q=usb+mouse+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "usb_gamepad",
+    "name": "USB HID gamepad (S3 host)",
+    "category": "input",
+    "protocol": "USB OTG",
+    "voltage": 5,
+    "pins": "board-dependent",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "board-dependent",
+    "datasheet_url": "https://www.google.com/search?q=usb+gamepad+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "relay_optocoupler",
+    "name": "Optocoupler relay module",
+    "category": "actuator",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "IN",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "IN",
+    "datasheet_url": "https://www.google.com/search?q=relay+optocoupler+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pc817",
+    "name": "PC817 optocoupler",
+    "category": "isolation",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "LED/collector",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "LED/collector",
+    "datasheet_url": "https://www.google.com/search?q=pc817+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "el817",
+    "name": "EL817 optocoupler",
+    "category": "isolation",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "LED/collector",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "LED/collector",
+    "datasheet_url": "https://www.google.com/search?q=el817+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "4n35",
+    "name": "4N35 optocoupler",
+    "category": "isolation",
+    "protocol": "GPIO",
+    "voltage": 5,
+    "pins": "LED/collector",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "LED/collector",
+    "datasheet_url": "https://www.google.com/search?q=4n35+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "thermistor_ntc10k",
+    "name": "10k NTC thermistor",
+    "category": "temperature",
+    "protocol": "Analog",
+    "voltage": 3.3,
+    "pins": "divider required",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "divider required",
+    "datasheet_url": "https://www.google.com/search?q=thermistor+ntc10k+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "thermocouple_k",
+    "name": "Type-K thermocouple",
+    "category": "temperature",
+    "protocol": "MAX6675/MAX31855",
+    "voltage": 3.3,
+    "pins": "external interface required",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "external interface required",
+    "datasheet_url": "https://www.google.com/search?q=thermocouple+k+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "pt100",
+    "name": "PT100 RTD",
+    "category": "temperature",
+    "protocol": "MAX31865",
+    "voltage": 3.3,
+    "pins": "external interface required",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "external interface required",
+    "datasheet_url": "https://www.google.com/search?q=pt100+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "ldr_raw",
+    "name": "LDR photoresistor",
+    "category": "light",
+    "protocol": "Analog",
+    "voltage": 3.3,
+    "pins": "divider required",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "divider required",
+    "datasheet_url": "https://www.google.com/search?q=ldr+raw+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "photodiode",
+    "name": "Photodiode",
+    "category": "light",
+    "protocol": "Analog",
+    "voltage": 3.3,
+    "pins": "bias/TIA required",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "bias/TIA required",
+    "datasheet_url": "https://www.google.com/search?q=photodiode+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "phototransistor",
+    "name": "Phototransistor",
+    "category": "light",
+    "protocol": "Analog",
+    "voltage": 3.3,
+    "pins": "bias required",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "bias required",
+    "datasheet_url": "https://www.google.com/search?q=phototransistor+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "air_quality_mq2",
+    "name": "MQ-2 family module",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=air+quality+mq2+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "air_quality_mq3",
+    "name": "MQ-3 module",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=air+quality+mq3+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "air_quality_mq4",
+    "name": "MQ-4 module",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=air+quality+mq4+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "air_quality_mq5",
+    "name": "MQ-5 module",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=air+quality+mq5+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "air_quality_mq6",
+    "name": "MQ-6 module",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=air+quality+mq6+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "air_quality_mq9",
+    "name": "MQ-9 module",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=air+quality+mq9+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  },
+  {
+    "id": "air_quality_mq131",
+    "name": "MQ-131 module",
+    "category": "environmental",
+    "protocol": "Analog",
+    "voltage": 5,
+    "pins": "AO/DO",
+    "compatible_boards": [
+      "arduino-uno",
+      "esp32-dev-module",
+      "esp32-s3"
+    ],
+    "library": "BUILTIN_OR_VENDOR/VERIFY",
+    "library_version": "NOT_PINNED",
+    "example": "TEMPLATE_OR_VENDOR_EXAMPLE",
+    "test": "MANUAL_OR_PROTOCOL_SPECIFIC",
+    "wiring": "AO/DO",
+    "datasheet_url": "https://www.google.com/search?q=air+quality+mq131+datasheet",
+    "verification_status": "REAL_COMPONENT_FAMILY_PINOUT_NOT_UNIVERSAL"
+  }
+]

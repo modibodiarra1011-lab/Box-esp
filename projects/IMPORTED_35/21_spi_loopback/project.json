@@ -1,0 +1,9 @@
+{
+  "id": "21_spi_loopback",
+  "title": "SPI Bus Loopback Test",
+  "boards": "ESP32 / Uno",
+  "pins": "SCK=GPIO18, MISO=GPIO19, MOSI=GPIO23, CS=GPIO5 (MOSI relie a MISO)",
+  "purpose": "Validate hardware SPI byte-for-byte transmission",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

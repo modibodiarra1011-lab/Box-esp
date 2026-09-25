@@ -1,0 +1,9 @@
+{
+  "id": "25_servo_pca9685",
+  "title": "PCA9685 16-Channel PWM Servo Driver",
+  "boards": "ESP32 / Uno",
+  "pins": "SDA=GPIO21, SCL=GPIO22",
+  "purpose": "Drive up to 16 servos independently via I2C PWM expander",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

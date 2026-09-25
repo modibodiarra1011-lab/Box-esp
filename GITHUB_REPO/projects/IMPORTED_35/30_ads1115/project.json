@@ -1,0 +1,9 @@
+{
+  "id": "30_ads1115",
+  "title": "ADS1115 16-Bit 4-Channel ADC",
+  "boards": "ESP32 / Uno",
+  "pins": "SDA=GPIO21, SCL=GPIO22",
+  "purpose": "High-resolution external analog-to-digital conversion via I2C",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

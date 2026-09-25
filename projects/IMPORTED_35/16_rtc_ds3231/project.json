@@ -1,0 +1,9 @@
+{
+  "id": "16_rtc_ds3231",
+  "title": "DS3231 Real-Time Clock Module",
+  "boards": "ESP32 / Uno",
+  "pins": "SDA=GPIO21, SCL=GPIO22",
+  "purpose": "Keep accurate date/time with battery backup, read internal temperature",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

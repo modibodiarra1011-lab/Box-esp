@@ -1,0 +1,9 @@
+{
+  "id": "31_station_meteo_complete",
+  "title": "Station Meteo Complete (BME280 + SSD1306 + DS3231)",
+  "boards": "ESP32",
+  "pins": "SDA=GPIO21, SCL=GPIO22 (bus I2C partage)",
+  "purpose": "Combined weather station with local display and real-time clock, non-blocking multitasking",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring. Verify I2C addresses with 05_i2c_scanner before assembly."
+}

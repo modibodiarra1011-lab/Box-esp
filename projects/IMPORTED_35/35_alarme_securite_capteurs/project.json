@@ -1,0 +1,9 @@
+{
+  "id": "35_alarme_securite_capteurs",
+  "title": "Systeme d'alarme (HC-SR04 + WS2812 + Buzzer + Dashboard WiFi)",
+  "boards": "ESP32",
+  "pins": "TRIG=GPIO5, ECHO=GPIO18 (diviseur), LED=GPIO15, Buzzer=GPIO26",
+  "purpose": "Non-blocking presence-based alarm system with visual/audio alert and WiFi dashboard",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

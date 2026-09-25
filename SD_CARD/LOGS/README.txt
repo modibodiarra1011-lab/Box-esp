@@ -1,0 +1,1 @@
+Les logs frequents restent ici. La configuration peu changeante reste dans NVS.

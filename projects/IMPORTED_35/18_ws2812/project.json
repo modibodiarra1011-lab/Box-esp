@@ -1,0 +1,9 @@
+{
+  "id": "18_ws2812",
+  "title": "WS2812 Addressable RGB LED Strip",
+  "boards": "ESP32 / Uno",
+  "pins": "DATA=GPIO5",
+  "purpose": "Drive individually-addressable RGB LEDs with rainbow animation",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

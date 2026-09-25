@@ -1,0 +1,9 @@
+{
+  "id": "05_i2c_scanner",
+  "title": "I2C Bus Scanner",
+  "boards": "ESP32 / Uno",
+  "pins": "SDA=GPIO21, SCL=GPIO22",
+  "purpose": "Detect I2C device addresses and diagnose bus conflicts",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "15_vl53l0x",
+  "title": "VL53L0X Time-of-Flight Laser Distance Sensor",
+  "boards": "ESP32 / Uno",
+  "pins": "SDA=GPIO21, SCL=GPIO22, XSHUT (optionnel)",
+  "purpose": "Precise short-range distance measurement (up to ~2m) via laser ToF",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

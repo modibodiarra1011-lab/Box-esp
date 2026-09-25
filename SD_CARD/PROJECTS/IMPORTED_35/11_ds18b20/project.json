@@ -1,0 +1,9 @@
+{
+  "id": "11_ds18b20",
+  "title": "DS18B20 OneWire Temperature Sensor",
+  "boards": "ESP32 / Uno",
+  "pins": "DATA=GPIO4",
+  "purpose": "Read precise temperature over 1-Wire bus (supports multi-drop)",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

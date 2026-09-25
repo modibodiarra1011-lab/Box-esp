@@ -1,0 +1,9 @@
+{
+  "id": "27_max6675",
+  "title": "MAX6675 K-Type Thermocouple Amplifier",
+  "boards": "ESP32 / Uno",
+  "pins": "SCK=GPIO18, CS=GPIO15, SO=GPIO19",
+  "purpose": "Read high-temperature K-type thermocouple via SPI",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

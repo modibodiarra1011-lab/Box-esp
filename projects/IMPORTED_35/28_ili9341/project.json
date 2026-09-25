@@ -1,0 +1,9 @@
+{
+  "id": "28_ili9341",
+  "title": "ILI9341 TFT Display 320x240 (SPI)",
+  "boards": "ESP32 / Uno",
+  "pins": "CS=GPIO5, DC=GPIO2, RST=GPIO4, SCK=GPIO18, MOSI=GPIO23, MISO=GPIO19",
+  "purpose": "Render text and graphics on a color TFT display",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

@@ -1,0 +1,16 @@
+{
+  "id":"my_sensor",
+  "name":"My Sensor",
+  "category":"sensor",
+  "protocol":"I2C",
+  "voltage":3.3,
+  "pins":"module-dependent",
+  "compatible_boards":["esp32-s3","esp32-dev-module"],
+  "library":"REQUIRES_DRIVER",
+  "library_version":"VERIFY",
+  "example":"example.ino",
+  "test":"manual",
+  "wiring":"wiring.md",
+  "datasheet_url":"https://example.invalid/replace-with-real-datasheet",
+  "verification_status":"USER_SUPPLIED_TEMPLATE"
+}

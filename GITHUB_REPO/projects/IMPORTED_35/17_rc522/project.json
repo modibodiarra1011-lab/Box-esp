@@ -1,0 +1,9 @@
+{
+  "id": "17_rc522",
+  "title": "RC522 RFID Reader (13.56MHz)",
+  "boards": "ESP32 / Uno",
+  "pins": "SCK=GPIO18, MISO=GPIO19, MOSI=GPIO23, SS=GPIO5, RST=GPIO27",
+  "purpose": "Read RFID/NFC tag UID via SPI",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

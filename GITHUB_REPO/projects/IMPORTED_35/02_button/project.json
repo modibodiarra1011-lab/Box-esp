@@ -1,0 +1,9 @@
+{
+  "id": "02_button",
+  "title": "Push Button (Debounced Input)",
+  "boards": "ESP32 / Uno",
+  "pins": "GPIO4 (button), LED_BUILTIN",
+  "purpose": "Digital input with software debounce",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

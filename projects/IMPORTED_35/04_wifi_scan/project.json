@@ -1,0 +1,9 @@
+{
+  "id": "04_wifi_scan",
+  "title": "WiFi Network Scanner",
+  "boards": "ESP32 / Uno",
+  "pins": "N/A (radio interne)",
+  "purpose": "Scan and list nearby WiFi access points",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

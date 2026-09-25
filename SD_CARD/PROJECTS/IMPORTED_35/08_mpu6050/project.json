@@ -1,0 +1,9 @@
+{
+  "id": "08_mpu6050",
+  "title": "MPU6050 6-Axis Accelerometer/Gyroscope",
+  "boards": "ESP32 / Uno",
+  "pins": "SDA=GPIO21, SCL=GPIO22, AD0",
+  "purpose": "Read acceleration, angular velocity and internal temperature",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

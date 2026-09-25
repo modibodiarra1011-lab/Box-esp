@@ -1,0 +1,12 @@
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+.vscode/
+.idea/
+*.pyc
+__pycache__/
+release/
+BUILD_OUTPUT/
+secrets.json
+.env

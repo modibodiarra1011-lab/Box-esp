@@ -1,0 +1,327 @@
+[
+  {
+    "id": "RECIPE_001",
+    "board": "ESP32-S3 N16R8",
+    "components": [
+      "DHT11"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_002",
+    "board": "Arduino Uno",
+    "components": [
+      "DHT22"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_003",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "BME280"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_004",
+    "board": "ESP32-S3 N16R8",
+    "components": [
+      "BMP280"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_005",
+    "board": "Arduino Uno",
+    "components": [
+      "MPU6050"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_006",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "BH1750"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_007",
+    "board": "ESP32-S3 N16R8",
+    "components": [
+      "SSD1306"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_008",
+    "board": "Arduino Uno",
+    "components": [
+      "WS2812"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_009",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "HC-SR04"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_010",
+    "board": "ESP32-S3 N16R8",
+    "components": [
+      "SG90"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_011",
+    "board": "Arduino Uno",
+    "components": [
+      "PCA9685"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_012",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "RC522"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_013",
+    "board": "ESP32-S3 N16R8",
+    "components": [
+      "VL53L0X"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_014",
+    "board": "Arduino Uno",
+    "components": [
+      "INA219"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_015",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "MAX6675"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_016",
+    "board": "ESP32-S3 N16R8",
+    "components": [
+      "GPS NEO-6M"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_017",
+    "board": "Arduino Uno",
+    "components": [
+      "DS18B20"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_018",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "ADS1115"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_019",
+    "board": "ESP32-S3 N16R8",
+    "components": [
+      "MCP23017"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_020",
+    "board": "Arduino Uno",
+    "components": [
+      "ILI9341"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_021",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "SCD40"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_022",
+    "board": "ESP32-S3 N16R8",
+    "components": [
+      "TCS34725"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_023",
+    "board": "Arduino Uno",
+    "components": [
+      "PN532"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_024",
+    "board": "ESP32 Dev Module",
+    "components": [
+      "NEO-6M"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  },
+  {
+    "id": "RECIPE_025",
+    "board": "ESP32-S3 N16R8",
+    "components": [
+      "HX711"
+    ],
+    "features": [
+      "read",
+      "log",
+      "web"
+    ],
+    "status": "template"
+  }
+]

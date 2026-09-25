@@ -1,0 +1,8 @@
+{
+  "name": "03_I2C_Scanner_ESP32",
+  "board": "ESP32 Dev Module",
+  "components": [
+    "I2C bus"
+  ],
+  "status": "READY_EXAMPLE"
+}

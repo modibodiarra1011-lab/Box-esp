@@ -1,0 +1,11 @@
+{
+  "name": "06_WS2812",
+  "board": "ESP32 Dev Module",
+  "components": [
+    "WS2812/NeoPixel"
+  ],
+  "status": "READY_EXAMPLE",
+  "library_versions": {
+    "Adafruit_NeoPixel": "1.15.5"
+  }
+}

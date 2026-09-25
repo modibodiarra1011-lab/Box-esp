@@ -1,0 +1,9 @@
+{
+  "id": "20_serial_loopback",
+  "title": "UART Serial Loopback Test",
+  "boards": "ESP32 / Uno",
+  "pins": "TX2=GPIO17, RX2=GPIO16 (relies physiquement ensemble)",
+  "purpose": "Validate hardware UART transmission/reception integrity",
+  "status": "template-ready",
+  "note": "Review voltage and exact pinout before wiring."
+}

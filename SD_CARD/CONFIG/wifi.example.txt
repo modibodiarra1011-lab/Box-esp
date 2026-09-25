@@ -1,0 +1,4 @@
+SSID_EXTERNE=
+PASSWORD_EXTERNE=
+
+Ne mettre aucun vrai secret dans Git.

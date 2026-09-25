@@ -1,0 +1,706 @@
+[
+  {
+    "project": "projects/IMPORTED_35/01_blink",
+    "board": "",
+    "gpio_mentions": [
+      2
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/02_button",
+    "board": "",
+    "gpio_mentions": [
+      4
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/03_potentiometer",
+    "board": "",
+    "gpio_mentions": [
+      0,
+      32,
+      34,
+      39
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": true,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": true
+  },
+  {
+    "project": "projects/IMPORTED_35/04_wifi_scan",
+    "board": "",
+    "gpio_mentions": [],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": true,
+    "ble": true,
+    "usb": true,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/05_i2c_scanner",
+    "board": "",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/06_dht22",
+    "board": "",
+    "gpio_mentions": [
+      4
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/07_bme280",
+    "board": "",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/08_mpu6050",
+    "board": "",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/09_ssd1306",
+    "board": "",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": true,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/10_hcsr04",
+    "board": "",
+    "gpio_mentions": [
+      5,
+      18
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": true,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/11_ds18b20",
+    "board": "",
+    "gpio_mentions": [
+      4
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/12_sg90",
+    "board": "",
+    "gpio_mentions": [
+      18
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": true,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/13_ldr",
+    "board": "",
+    "gpio_mentions": [
+      34
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": true
+  },
+  {
+    "project": "projects/IMPORTED_35/14_bh1750",
+    "board": "",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/15_vl53l0x",
+    "board": "",
+    "gpio_mentions": [
+      1,
+      19,
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/16_rtc_ds3231",
+    "board": "",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/17_rc522",
+    "board": "",
+    "gpio_mentions": [
+      5,
+      18,
+      19,
+      23,
+      27
+    ],
+    "i2c": true,
+    "spi": true,
+    "i2s": false,
+    "uart": true,
+    "wifi": true,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": true
+  },
+  {
+    "project": "projects/IMPORTED_35/18_ws2812",
+    "board": "",
+    "gpio_mentions": [
+      5
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/19_encoder",
+    "board": "",
+    "gpio_mentions": [
+      25,
+      32,
+      33
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/20_serial_loopback",
+    "board": "",
+    "gpio_mentions": [
+      1,
+      3,
+      16,
+      17
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": true,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/21_spi_loopback",
+    "board": "",
+    "gpio_mentions": [
+      5,
+      18,
+      19,
+      23
+    ],
+    "i2c": false,
+    "spi": true,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/22_wifi_ap",
+    "board": "",
+    "gpio_mentions": [],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": true,
+    "ble": true,
+    "usb": true,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/23_espnow",
+    "board": "",
+    "gpio_mentions": [],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": true,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/24_worker_diagnostic",
+    "board": "",
+    "gpio_mentions": [],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": true,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/25_servo_pca9685",
+    "board": "",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": true,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/26_gps_neo6m",
+    "board": "",
+    "gpio_mentions": [
+      16,
+      17
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/27_max6675",
+    "board": "",
+    "gpio_mentions": [
+      15,
+      18,
+      19
+    ],
+    "i2c": false,
+    "spi": true,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": true
+  },
+  {
+    "project": "projects/IMPORTED_35/28_ili9341",
+    "board": "",
+    "gpio_mentions": [
+      2,
+      4,
+      5,
+      18,
+      19,
+      23,
+      27,
+      33
+    ],
+    "i2c": false,
+    "spi": true,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": true,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/29_mcp23017",
+    "board": "",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/30_ads1115",
+    "board": "",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": true
+  },
+  {
+    "project": "projects/IMPORTED_35/31_station_meteo_complete",
+    "board": "",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/32_domotique_rfid_wifi",
+    "board": "",
+    "gpio_mentions": [
+      5,
+      15,
+      16,
+      18,
+      19,
+      23,
+      27
+    ],
+    "i2c": false,
+    "spi": true,
+    "i2s": false,
+    "uart": true,
+    "wifi": true,
+    "ble": true,
+    "usb": false,
+    "pwm": true,
+    "adc": true
+  },
+  {
+    "project": "projects/IMPORTED_35/33_robot_evitement_obstacles",
+    "board": "",
+    "gpio_mentions": [
+      5,
+      16,
+      17,
+      18
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": true,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/34_data_logger_environnemental",
+    "board": "",
+    "gpio_mentions": [
+      4,
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/IMPORTED_35/35_alarme_securite_capteurs",
+    "board": "",
+    "gpio_mentions": [
+      5,
+      15,
+      18,
+      26
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": true,
+    "ble": true,
+    "usb": false,
+    "pwm": true,
+    "adc": false
+  },
+  {
+    "project": "projects/PREPARED/01_Blink_ESP32",
+    "board": "ESP32 Dev Module",
+    "gpio_mentions": [
+      2
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/PREPARED/02_DHT11_MASTER",
+    "board": "ESP32-S3",
+    "gpio_mentions": [
+      4
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": false,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/PREPARED/03_I2C_Scanner_ESP32",
+    "board": "ESP32 Dev Module",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": false,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/PREPARED/04_OLED_SSD1306",
+    "board": "ESP32 Dev Module",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/PREPARED/05_MPU6050",
+    "board": "ESP32 Dev Module",
+    "gpio_mentions": [
+      21,
+      22
+    ],
+    "i2c": true,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  },
+  {
+    "project": "projects/PREPARED/06_WS2812",
+    "board": "ESP32 Dev Module",
+    "gpio_mentions": [
+      5
+    ],
+    "i2c": false,
+    "spi": false,
+    "i2s": false,
+    "uart": true,
+    "wifi": false,
+    "ble": true,
+    "usb": false,
+    "pwm": false,
+    "adc": false
+  }
+]
