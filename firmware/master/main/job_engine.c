@@ -1,4 +1,5 @@
 #include "job_engine.h"
+#include "lab_config.h"
 #include "worker_pool.h"
 #include "led_status.h"
 #include "storage.h"
