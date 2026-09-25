@@ -52,6 +52,8 @@ bool wifiOk = false;
 bool fsOk = false;
 uint32_t benchmarkElapsedUs = 0;
 uint32_t benchmarkOpsPerSec = 0;
+uint32_t benchmarkDone=0; String resumeType=""; uint8_t resumePhase=0; uint32_t resumeProgress=0; uint32_t resumeBenchmarkDone=0; bool resumePending=false; uint32_t lastCheckpointMs=0; uint32_t lastCheckpointProgress=0;
+static void logLine(const String &s);
 
 static String urlDecode(const String &in) {
   String out;
@@ -130,6 +132,12 @@ static void remember(const String &kind, const String &note) {
   f.print("|");
   f.println(note);
   f.close();
+}
+
+static void clearCheckpoint(){if(LittleFS.begin(false))LittleFS.remove("/resume.cfg");resumeType="";resumePending=false;}
+static void saveCheckpoint(){if(!LittleFS.begin(false)||currentJob.isEmpty())return;if(millis()-lastCheckpointMs<CHECKPOINT_INTERVAL_MS&&progress<lastCheckpointProgress+CHECKPOINT_PROGRESS_STEP)return;File f=LittleFS.open("/resume.cfg","w");if(!f)return;f.println(String("type=")+currentJob);f.println(String("phase=")+servicePhase);f.println(String("progress=")+progress);f.println(String("bench=")+benchmarkDone);f.close();lastCheckpointMs=millis();lastCheckpointProgress=progress;}
+static bool loadCheckpoint(){if(!LittleFS.begin(false))return false;File f=LittleFS.open("/resume.cfg","r");if(!f)return false;String type="";uint8_t phase=0;uint32_t pct=0,bench=0;while(f.available()){String l=f.readStringUntil('\n');l.trim();int q=l.indexOf('=');if(q<1)continue;String k=l.substring(0,q),v=l.substring(q+1);if(k=="type")type=v;else if(k=="phase")phase=(uint8_t)v.toInt();else if(k=="progress")pct=(uint32_t)v.toInt();else if(k=="bench")bench=(uint32_t)v.toInt();}f.close();if(type!="SYSTEM_TEST"&&type!="BENCHMARK"&&type!="FS_TEST"){LittleFS.remove("/resume.cfg");return false;}resumeType=type;resumePhase=phase;resumeProgress=min(pct,100UL);resumeBenchmarkDone=min(bench,(uint32_t)BENCHMARK_OPERATIONS);resumePending=true;return true;}
+static void startResumeIfNeeded(){if(!resumePending||WiFi.status()!=WL_CONNECTED||state=="FLASHING"||serviceJobKind!=SERVICE_NONE)return;String t=resumeType;resumePending=false;servicePhase=resumePhase;servicePhaseAt=millis();progress=resumeProgress;currentJob=t;lastResult="RESUMING";state="TESTING";lastJob=millis();serviceJobKind=t=="BENCHMARK"?SERVICE_BENCHMARK:(t=="FS_TEST"?SERVICE_FS_TEST:SERVICE_SYSTEM_TEST);benchmarkDone=resumeBenchmarkDone;benchmarkElapsedUs=micros();logLine(String("RESUME ")+t);}
 }
 
 static void logLine(const String &s) {
@@ -240,6 +248,7 @@ static void cancelServiceJob() {
   serviceJobKind = SERVICE_NONE;
   servicePhase = 0;
   progress = 0;
+  clearCheckpoint();
   lastResult = "CANCELLED";
   currentJob = "";
   state = "READY";
@@ -251,6 +260,7 @@ static void finishServiceJob(bool ok, const String &result) {
   serviceJobKind = SERVICE_NONE;
   servicePhase = 0;
   progress = ok ? 100 : 0;
+  clearCheckpoint();
   lastResult = result;
   currentJob = "";
   state = ok ? "READY" : "ERROR";
@@ -318,6 +328,7 @@ static bool runFsSelfTest(String &detail) {
 static void startServiceJob(const String &type, bool turbo) {
   serviceTurbo = turbo;
   cancelRequested = false;
+  clearCheckpoint(); benchmarkDone=0; lastCheckpointMs=0; lastCheckpointProgress=0;
   servicePhase = 0;
   servicePhaseAt = millis();
   progress = 0;
@@ -345,21 +356,25 @@ static void serviceSystemTest() {
       cpuOk = ESP.getCpuFreqMHz() > 0 && ESP.getChipCores() >= 1;
       progress = 20;
       servicePhase = 1;
+      saveCheckpoint();
       break;
     case 1:
       flashOk = ESP.getFlashChipSize() >= (1024UL * 1024UL);
       progress = 40;
       servicePhase = 2;
+      saveCheckpoint();
       break;
     case 2:
       wifiOk = WiFi.status() == WL_CONNECTED;
       progress = 60;
       servicePhase = 3;
+      saveCheckpoint();
       break;
     case 3:
       fsOk = LittleFS.begin(false);
       progress = 80;
       servicePhase = 4;
+      saveCheckpoint();
       break;
     default: {
       bool ok = cpuOk && flashOk && wifiOk && fsOk;
@@ -376,31 +391,7 @@ static void serviceSystemTest() {
   }
 }
 
-static void serviceBenchmark() {
-  if (cancelRequested) {
-    cancelServiceJob();
-    return;
-  }
-  if (servicePhase == 0) {
-    uint32_t start = micros();
-    uint32_t x = 0x12345678UL;
-    for (uint32_t i = 0; i < BENCHMARK_OPERATIONS; ++i) {
-      x = x * 1664525UL + 1013904223UL;
-      x ^= x >> 13;
-    }
-    benchmarkElapsedUs = micros() - start;
-    benchmarkSink = x;
-    benchmarkOpsPerSec = benchmarkElapsedUs ? static_cast<uint32_t>((static_cast<uint64_t>(BENCHMARK_OPERATIONS) * 1000000ULL) / benchmarkElapsedUs) : 0;
-    progress = 100;
-    String result = "BENCHMARK OPS=" + String(BENCHMARK_OPERATIONS) +
-                    " US=" + String(benchmarkElapsedUs) +
-                    " OPS_S=" + String(benchmarkOpsPerSec) +
-                    " CPU_MHZ=" + String(ESP.getCpuFreqMHz()) +
-                    " HEAP=" + String(ESP.getFreeHeap());
-    finishServiceJob(benchmarkElapsedUs > 0, result);
-  }
-}
-
+static void serviceBenchmark(){if(cancelRequested){cancelServiceJob();return;}if(servicePhase==0){benchmarkElapsedUs=micros();benchmarkSink=0x12345678UL;servicePhase=1;}uint32_t x=benchmarkSink,end=min(benchmarkDone+6000UL,(uint32_t)BENCHMARK_OPERATIONS);for(uint32_t i=benchmarkDone;i<end;++i){x=x*1664525UL+1013904223UL;x^=x>>13;}benchmarkSink=x;benchmarkDone=end;progress=(uint32_t)((uint64_t)benchmarkDone*100ULL/BENCHMARK_OPERATIONS);saveCheckpoint();if(benchmarkDone>=BENCHMARK_OPERATIONS){benchmarkElapsedUs=micros()-benchmarkElapsedUs;benchmarkOpsPerSec=benchmarkElapsedUs?(uint32_t)((uint64_t)BENCHMARK_OPERATIONS*1000000ULL/benchmarkElapsedUs):0;finishServiceJob(benchmarkElapsedUs>0,"BENCHMARK OPS="+String(BENCHMARK_OPERATIONS)+" US="+String(benchmarkElapsedUs)+" OPS_S="+String(benchmarkOpsPerSec));}}
 static void serviceFsTest() {
   if (cancelRequested) {
     cancelServiceJob();
@@ -776,13 +767,15 @@ void setup() {
   prefs.end();
 
   LittleFS.begin(true);
+  loadCheckpoint();
   remember("BOOT", String("worker online reset=") + resetReasonName(esp_reset_reason()));
   logLine(String("BOOT W") + workerId + " core=" + ESP.getCoreVersion());
 
   connectLabWifi();
   if (WiFi.status() == WL_CONNECTED) {
     startNetworkSockets();
-    state = "DISCOVERING";
+    startResumeIfNeeded();
+    if(serviceJobKind==SERVICE_NONE) state = "DISCOVERING";
     logLine("WiFi " + WiFi.localIP().toString());
     sendDiscovery();
   } else {
@@ -803,6 +796,7 @@ void setup() {
 void loop() {
   server.handleClient();
   receiveReply();
+  startResumeIfNeeded();
   serviceJobs();
 
   if (WiFi.status() != WL_CONNECTED) {
