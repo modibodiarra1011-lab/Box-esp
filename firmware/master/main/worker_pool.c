@@ -86,6 +86,8 @@ static void parse_line(char *p)
         s = strtok_r(NULL, "|", &save); x->flash_size = s ? (uint32_t)strtoul(s, NULL, 10) : 0;
         s = strtok_r(NULL, "|", &save); x->cores = s ? (uint8_t)atoi(s) : 0;
         s = strtok_r(NULL, "|", &save); x->psram_size = s ? (uint32_t)strtoul(s, NULL, 10) : 0;
+        s = strtok_r(NULL, "|", &save); x->resume_available = s ? atoi(s) != 0 : false;
+        s = strtok_r(NULL, "|", &save); x->checkpoint_progress = s ? (uint32_t)strtoul(s, NULL, 10) : 0;
         x->last_seen_ms = esp_log_timestamp();
     }
 }
