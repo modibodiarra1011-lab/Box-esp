@@ -458,7 +458,11 @@ static void ws_task(void *arg)
 
 void web_server_start(void)
 {
-    httpd_config_t c = HTTPD_DEFAULT_CONFIG(); c.server_port = HTTP_PORT; c.max_open_sockets = WS_MAX_CLIENTS; c.uri_match_fn = httpd_uri_match_wildcard;
+    httpd_config_t c = HTTPD_DEFAULT_CONFIG();
+    c.server_port = HTTP_PORT;
+    c.max_open_sockets = WS_MAX_CLIENTS;
+    c.max_uri_handlers = 32;
+    c.uri_match_fn = httpd_uri_match_wildcard;
     ESP_ERROR_CHECK(httpd_start(&s_server, &c));
     httpd_uri_t u = {0}; u.uri = "/"; u.method = HTTP_GET; u.handler = index_get; ESP_ERROR_CHECK(httpd_register_uri_handler(s_server, &u));
 #define REG(path,m,fn) do { httpd_uri_t z = {0}; z.uri = path; z.method = m; z.handler = fn; ESP_ERROR_CHECK(httpd_register_uri_handler(s_server, &z)); } while (0)
